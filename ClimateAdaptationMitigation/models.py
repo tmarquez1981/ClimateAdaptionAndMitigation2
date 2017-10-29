@@ -27,8 +27,9 @@ class Entity(models.Model):
     def _str_(self):
         return "Entity: {}".format(self.abbreviation)
 
+
 @python_2_unicode_compatible
-class Nodes(models.Model):
+class Edges(models.Model):
     source = models.CharField(max_length=10)
     target = models.CharField(max_length=10)
     type = models.CharField(max_length=15)

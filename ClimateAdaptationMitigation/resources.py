@@ -3,8 +3,8 @@
 
 from import_export import resources
 
-from .models import Nodes
+from .models import Edges
 
 class NodesResource(resources.ModelsResource):
     class Meta:
-        model = Nodes
+        model = Edges

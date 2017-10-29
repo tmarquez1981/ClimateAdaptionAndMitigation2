@@ -10,10 +10,10 @@ from django.contrib import admin
 
 # Register your models here.
 from .models import Entity
-from .models import Nodes
+from .models import Edges
 
 admin.site.register(Entity)
-admin.site.register(Nodes)
+admin.site.register(Edges)
 
 class NodesAdmin(ImportExportModelAdmin):
     pass

@@ -22,19 +22,34 @@
             }
           });
 */
+        var source = "";
+        var target = "";
+
+
 
         d3.csv("/static/js/SOAClimateMappingProject_Entities.csv", function(data) {
-        console.log(data[0]);
+        //console.log(data[0]);
+        source = data[0].Abr;
+        target = data[1].Abr;
+        console.log(source);
+        console.log(target);
         });
 
         var width = 640;
         var height = 480;
 
+        /*
+        //hardcoded links
         var links = [
         { source: 'Tom', target: 'Jim'},
         { source: 'Jim', target: 'Jack'},
         { source: 'Jack', target: 'Tom'},
         ];
+        */
+
+        var links = [
+          { source: source, target: target },
+        ]
 
         var nodes = {};
 
