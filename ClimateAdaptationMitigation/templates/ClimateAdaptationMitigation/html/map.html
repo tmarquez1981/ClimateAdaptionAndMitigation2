@@ -1,35 +1,73 @@
+{% load staticfiles %}
 <html>
   <head>
     <meta charset="utf-8">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
     <script src="http://d3js.org/colorbrewer.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="/static/files/sigma.min.js"></script>
+    <script src="/static/files/sigma.parsers.gexf.min.js"></script>
 
     <h1>Map</h1>
-    <a href="/ClimateAdaptationMitigation/home">Back</a></br>
 
-    <style>
-      .node{
-        fill: #ccc;
-        stroke: #fff;
-        stroke-width: 2px
+    <style type="text/css">
+      body {
+        margin: 0;
       }
 
-      .link{
-        stroke: #777;
-        stroke-width: 2px
-      }
     </style>
 
   </head>
 
     <body>
-      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <div>
+    <!--navbar begin-->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+              <ul class="nav navbar-nav">
+                <li><a href="/ClimateAdaptationMitigation/map">Graph</a></li>
+                <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
+                <li><a href="/ClimateAdaptationMitigation/about">About</a></li>
+                <li><a href="/ClimateAdaptationMitigation/test">Test</a></li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  <!--navbar end-->
+      </div>
+        <div id="viz">
+
+
+          <div id="container"></div>
+
+
       <!--<script src="/static/js/map.js"></script>-->
-      <script src="/static/js/map.js">
+          <script src="/static/js/map.js"></script>
 
-
-      </script>
+        </div>
+        <div class="footer">
+          <footer class="bg-faded text-center py-5">
+            <div class="container">
+              <p class="m-0">Copyright &copy; Your Website 2017</p>
+            </div>
+          </footer>
+        </div>
     </body>
 
 
