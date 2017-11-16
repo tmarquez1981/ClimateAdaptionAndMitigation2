@@ -5,6 +5,8 @@
 #model class
 #then, run "python manage.py migrate" to finish migration
 
+#For database shell, run "python manage.py dbshell" from command line
+
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 
@@ -12,20 +14,20 @@ from django.utils.encoding import python_2_unicode_compatible
 
 ##models.Models allow to save data from class to database
 class Entity(models.Model):
-    abbreviation = models.CharField(max_length=10) ##VARCHAR(10)
-    label = models.CharField(max_length=20)
-    location = models.CharField(max_length=20)
-    scopeCleaned = models.CharField(max_length=20)
-    institutionType = models.CharField(max_length=20)
-    issueFocus = models.CharField(max_length=20)
-    latitidue = models.DecimalField(max_digits=9, decimal_places=6)
-    longitude = models.DecimalField(max_digits=9, decimal_places=6)
-    sources = models.CharField(max_length=40)
+    Abr = models.CharField(max_length=10) ##VARCHAR(10)
+    Label = models.CharField(max_length=20)
+    Location = models.CharField(max_length=20)
+    ScopeCleaned = models.CharField(max_length=20)
+    InstitutionalType = models.CharField(max_length=20)
+    IssueFocus = models.CharField(max_length=20)
+    Lat = models.DecimalField(max_digits=9, decimal_places=6)
+    Lng = models.DecimalField(max_digits=9, decimal_places=6)
+    source = models.CharField(max_length=40)
     description = models.TextField(blank=True)  #field for adding description
                                                 #of Entity
                                                 #can be null
-    def _str_(self):
-        return "Entity: {}".format(self.abbreviation)
+    def __str__(self):
+        return "Entity: {}".format(self.Abr)
 
 
 @python_2_unicode_compatible
@@ -38,6 +40,6 @@ class Edges(models.Model):
     affiltype = models.CharField(max_length=20)
     regultype = models.CharField(max_length=20)
 
-
-    def _str_(self):
-        return "Nodes: {}".format(self.abbreviation)
+    ##displays the objects in a "Source: <source name> Target: <target name> " format
+    def __str__(self):
+        return "Source: {0} Target: {1}".format(self.source, self.target)

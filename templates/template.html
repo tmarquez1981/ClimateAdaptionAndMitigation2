@@ -1,3 +1,4 @@
+<!-- A template html to build other html files from -->
 {% load staticfiles %}
 <html>
   <head>
@@ -10,7 +11,6 @@
     <script src="/static/js/about.js"></script>
   </head>
   <body>
-
 
     <div>
 <!-- navbar starts -->
@@ -29,24 +29,13 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
-
-            <!--dropdown for navbar begin -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a Data Visualization <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
-              </ul>
-            </li>
-            <!--dropdown for navbar ends -->
-
+            <li><a href="/ClimateAdaptationMitigation/map">Graph</a></li>
             <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
             <li id="about" class="active"><a href="/ClimateAdaptationMitigation/about">About</a></li>
+
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
           </ul>
         </div>
       </div>
@@ -54,16 +43,6 @@
     </div>
 
 <!--navbar ends-->
-    <div>
-      <!--<button id="demo">click button</button>-->
-    </div>
-        <script
-        src="http://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous">
-        </script>
-            <script src="/static/js/about.js"></script>
-
 
         <div class="footer">
           <footer class="bg-faded text-center py-5">
@@ -74,6 +53,5 @@
         </div>
 
     </body>
-
 
 </html>
