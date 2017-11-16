@@ -6,6 +6,7 @@ urlpatterns = [
     url(r'^map', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/map.html")),
     url(r'^contact', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/contact.html")),
     url(r'^about', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/about.html")),
-
+    url(r'^scope', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/scope.html")),
+    url(r'^type', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/type.html")),
 
 ]

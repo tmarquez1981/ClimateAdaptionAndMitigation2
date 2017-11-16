@@ -1,17 +1,17 @@
 ##python script to load csv file
 
-import django
-import os
+##import django
+##import os
 #import csv.sys.os
 import csv
 
-from .models import Entity
+import models.Entity
 
-project_dir = "/home/tom/Climate/bin/Climate/Climate"
+##project_dir = "/home/tom/Climate/bin/Climate/Climate"
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'Climate.settings'
+##os.environ['DJANGO_SETTINGS_MODULE'] = 'Climate.settings'
 
-django.setup()
+##django.setup()
 
 
 with open('/SOAClimateMappingProject_Entities.csv') as f:
