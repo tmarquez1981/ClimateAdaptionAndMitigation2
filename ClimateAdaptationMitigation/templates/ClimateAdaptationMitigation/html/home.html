@@ -2,8 +2,13 @@
 <html>
 <head>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
+  <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="/static/js/home.js"></script>
+
 </head>
 
 <!--body-->
@@ -20,30 +25,79 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>
-          </div>
+              <!--<a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>-->
 
+          </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
             <ul class="nav navbar-nav">
-              <li><a href="/ClimateAdaptationMitigation/map">Graph</a></li>
+              <li class="active"><a href="/ClimateAdaptationMitigation/home">Home</a></li>
               <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
-              <li><a href="/ClimateAdaptationMitigation/about">About</a></li>
-              <li><a href="/ClimateAdaptationMitigation/test">Test</a></li>
+              <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
+
+              <!--dropdown for navbar begin -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a Data Visualization <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+                </ul>
+              </li>
+              <!--dropdown for navbar ends -->
+
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Link</a></li>
             </ul>
-          </div>
         </div>
       </nav>
+      <div id="mainHeader">
+        <h4 align="center"><u>Climate Adaptation and Mitigation Project</u></h4>
+      </div>
 <!--navbar end-->
     </div>
+<div class="container">
 
-    <div>
-      <h1 align="center">Climate Adaptation and Mitigation Project</h1>
+    <div class="row">
+      <div class="col-lg-3-offset-lg-3">
+        <p>As our environment changes, so do our relationships to each other and to the land. In the face of climate
+change we wanted to understand better what is happening around our state to address the effects of
+these changes and create solutions to adapt and mitigate. This database takes the first step in
+understanding how the puzzle pieces fit together, and is intended to provide a platform for Alaskan
+citizens, communities, and organizations to see what efforts have taken place and are currently ongoing.
+By clicking through this website you can explore all the entities that have their toe in the Alaskan
+sandbox, and what types of endeavors they have undertaken.</p>
+<p>Each entity listed in this database is coded in several ways: first by what type of organization they are
+(NGO; state or federal; for profit; etc.) as well as by their geographical reach (local; state-wide;
+international; web-based). Here you can see what organizations around the world are working on in
+relation to our state and where they are doing some of their work. We developed this tool so we could
+better understand these existing critical partnerships and to encourage new relationships, as well. Our
+hope is that our state citizens can also access this database to learn what is happening in their
+community and how they can be involved.</p>
+<p>This initial database was built from the personal knowledge and web-based searches of UAS Professor
+Jim Powell, UAA Professor Martin Cenek, and First Alaskans Institute Fellow Sigvanna Topkok early on in
+2017 for the Lt. Governor’s Office. It has since been expanded to be available to the public with the help
+of UAA students Eugene Han and Thomas Marquez. If you are interested, there is also the ability to
+submit (or modify) your organization’s information if you would like to be included, so we can keep this
+database up to date and as accurate as possible. Most importantly, this is meant to be a living database
+that grows and changes as new players come on the scene, and new partnerships are formed. We hope
+you find it useful!</p>
+
+        <script src="/static/js/home.js"></script>
+
+      </div>
+
     </div>
-
+</div>
+    <div class="footer">
+      <footer class="bg-faded text-center py-5">
+        <div class="container">
+          <p class="m-0">Copyright &copy; Your Website 2017</p>
+        </div>
+      </footer>
+    </div>
   </body>
   <!--endbody-->
 

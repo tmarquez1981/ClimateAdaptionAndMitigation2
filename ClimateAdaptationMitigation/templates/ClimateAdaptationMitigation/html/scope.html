@@ -1,21 +1,29 @@
+<!-- A template html to build other html files from -->
 {% load staticfiles %}
 <html>
-  <head>
+<head>
 
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
-    <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
-    <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/js/bootstrap.js"></script>
-    <script src="/static/js/about.js"></script>
-  </head>
-  <body>
+  <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
+  <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/bootstrap.js"></script>
+  <script src="/static/files/sigma.min.js"></script>
+  <script src="/static/files/sigma.parsers.gexf.min.js"></script>
 
+  <style type="text/css">
+  body {
+    margin: 0;
+  }
 
-    <div>
-<!-- navbar starts -->
+  </style>
 
-      <nav class="navbar navbar-inverse">
+</head>
+<body>
+
+  <div>
+    <!-- navbar starts -->
+
+    <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -30,7 +38,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
             <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
-            <li id="about" class="active"><a href="/ClimateAdaptationMitigation/about">About</a></li>
+            <li><a href="/ClimateAdaptationMitigation/about">About</a></li>
             <!--dropdown for navbar begin -->
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a Data Visualization <span class="caret"></span></a>
@@ -48,30 +56,29 @@
           </ul>
         </div>
       </div>
-      </nav>
+    </nav>
+  </div>
+
+  <!--navbar ends-->
+<h2 align="center">Vizualization By Scope</h2>
+
+  <div id="container">
+
+      <div id="viz">
+
+        <script src="/static/js/scope.js"></script>
+      </div>
     </div>
 
-<!--navbar ends-->
-    <div>
-      <!--<button id="demo">click button</button>-->
-    </div>
-        <script
-        src="http://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous">
-        </script>
-            <script src="/static/js/about.js"></script>
-
-
-        <div class="footer">
-          <footer class="bg-faded text-center py-5">
-            <div class="container">
-              <p class="m-0">Copyright &copy; Your Website 2017</p>
-            </div>
-          </footer>
+  <div id="row">
+    <div class="footer">
+      <footer class="bg-faded text-center py-5">
+        <div class="container">
+          <p class="m-0">Copyright &copy; Your Website 2017</p>
         </div>
-
-    </body>
-
+      </footer>
+    </div>
+  </div>
+</body>
 
 </html>

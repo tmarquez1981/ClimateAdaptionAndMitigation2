@@ -2,8 +2,10 @@
 <html>
   <head>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
+    <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
   </head>
   <body>
 
@@ -22,10 +24,20 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         <ul class="nav navbar-nav">
-          <li><a href="/ClimateAdaptationMitigation/map">Graph</a></li>
-          <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
+          <li class="active"><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
           <li><a href="/ClimateAdaptationMitigation/about">About</a></li>
-
+          <!--dropdown for navbar begin -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a Data Visualization <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+            </ul>
+          </li>
+          <!--dropdown for navbar ends -->
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
