@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# Shows where manage.py is
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -24,6 +25,10 @@ SECRET_KEY = '1(x(m2vum1^b_pb9t9%bod2d5!o0rnc_=y+#27et8-)b=siw#9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+IMPORT_EXPORT_USE_TRANSACTIONS = False
+
+IMPORT_EXPORT_SKIP_ADMIN_LOG = False
 
 ALLOWED_HOSTS = []
 
@@ -56,7 +61,7 @@ ROOT_URLCONF = 'Climate.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

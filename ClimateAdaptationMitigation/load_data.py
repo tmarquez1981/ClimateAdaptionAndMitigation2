@@ -1,11 +1,15 @@
 ##python script to load csv file
 
-##import django
-##import os
-#import csv.sys.os
+import sys
+import os
+
+sys.path.append("/home/tom/Climate/bin/Climate/ClimateAdaptationMitigation")
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+
 import csv
 
-import models.Entity
+
+from ClimateAdaptationMitigation.models import Entity
 
 ##project_dir = "/home/tom/Climate/bin/Climate/Climate"
 
@@ -14,7 +18,7 @@ import models.Entity
 ##django.setup()
 
 
-with open('/SOAClimateMappingProject_Entities.csv') as f:
+with open('SOAClimateMappingProject_Entities.csv') as f:
         reader = csv.reader(f)
         for row in reader:
             if row[0] != 'Abr': ##skip the header row
