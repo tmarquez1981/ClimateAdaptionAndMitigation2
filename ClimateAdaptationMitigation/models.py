@@ -7,6 +7,11 @@
 
 #For database shell, run "python manage.py dbshell" from command line
 
+#To look at objects in database, close server and run "shell"
+#type the following in shell prompt:
+#from ClimateAdaptationMitigation.models import post
+#Post.objecst.all()
+
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 
@@ -26,6 +31,8 @@ class Entity(models.Model):
     description = models.TextField(blank=True)  #field for adding description
                                                 #of Entity
                                                 #can be null
+    date = models.DateTimeField(auto_now=True)#timestamp of post                                            
+
     def __str__(self):
         return "Entity: {}".format(self.Abr)
 
@@ -36,7 +43,6 @@ class Edges(models.Model):
     target = models.CharField(max_length=10)
     type = models.CharField(max_length=15)
     ##id = models.IntegerField()
-    weight = models.IntegerField()
     affiltype = models.CharField(max_length=20)
     regultype = models.CharField(max_length=20)
 
