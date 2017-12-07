@@ -9,9 +9,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
   <script src="/static/js/home.js"></script>
 
+  <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
 
   <h1></h1>
   <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Climate Adaptation and Mitigation Project</div>
@@ -25,6 +25,15 @@
     }
   </style>
 
+  <style>
+    #footer{
+      width:100%;
+      position:fixed;
+      bottom:0;
+      left:0;
+    }
+  </style>
+
 </head>
 
 <!--body-->
@@ -32,71 +41,91 @@
 
     <div>
   <!--navbar begin-->
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <!--<a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>-->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <!--<a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>-->
 
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-        <ul class="nav navbar-nav navbar-center">
-          <li><a href="/ClimateAdaptationMitigation/home">Home</a></li>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav navbar-center">
+              <li class="active"><a href="/ClimateAdaptationMitigation/home">Home</a></li>
 
-          <!--dropdown for navbar begin -->
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a Data Visualization <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+              <!--dropdown for navbar begin -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a Data Visualization <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+                </ul>
+              </li>
+              <!--dropdown for navbar ends -->
+
+              <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
+              <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
+              <li id="form"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
             </ul>
-          </li>
-          <!--dropdown for navbar ends -->
 
-          <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
-          <li><a href="/ClimateAdaptationMitigation/about">About</a></li>
-          <li><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
 
-        </ul>
+        </div>
+      </nav>
 
-        <ul class="nav navbar-nav navbar-right">
-        </ul>
-      </div>
-    </nav>
-    <!--
+      <style>
+      #mainHeader {
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+      }
+    </style>
+
       <div id="mainHeader">
-        <h4 align="center"><u>Climate Adaptation and Mitigation Project</u></h4>
+        <h4 align="center"><u>Our Purpose</u></h4>
       </div>
-    -->
 <!--navbar end-->
     </div>
 <div class="container">
 
     <div class="row">
       <div class="col-lg-3-offset-lg-3">
-        <p>As our environment changes, so do our relationships to each other and to the land. In the face of climate
+
+        <style>
+        #paragraph {
+          color: white;
+          text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+        }
+      </style>
+
+        <p id="paragraph">As our environment changes, so do our relationships to each other and to the land. In the face of climate
 change we wanted to understand better what is happening around our state to address the effects of
 these changes and create solutions to adapt and mitigate. This database takes the first step in
 understanding how the puzzle pieces fit together, and is intended to provide a platform for Alaskan
 citizens, communities, and organizations to see what efforts have taken place and are currently ongoing.
 By clicking through this website you can explore all the entities that have their toe in the Alaskan
 sandbox, and what types of endeavors they have undertaken.</p>
-<p>Each entity listed in this database is coded in several ways: first by what type of organization they are
+<p id="paragraph"> Each entity listed in this database is coded in several ways: first by what type of organization they are
 (NGO; state or federal; for profit; etc.) as well as by their geographical reach (local; state-wide;
 international; web-based). Here you can see what organizations around the world are working on in
 relation to our state and where they are doing some of their work. We developed this tool so we could
 better understand these existing critical partnerships and to encourage new relationships, as well. Our
 hope is that our state citizens can also access this database to learn what is happening in their
 community and how they can be involved.</p>
-<p>This initial database was built from the personal knowledge and web-based searches of UAS Professor
+<p id="paragraph">This initial database was built from the personal knowledge and web-based searches of UAS Professor
 Jim Powell, UAA Professor Martin Cenek, and First Alaskans Institute Fellow Sigvanna Topkok early on in
 2017 for the Lt. Governor’s Office. It has since been expanded to be available to the public with the help
 of UAA students Eugene Han and Thomas Marquez. If you are interested, there is also the ability to
@@ -111,12 +140,23 @@ you find it useful!</p>
 
     </div>
 </div>
-    <div class="footer">
-      <div class="navbar navbar-default navbar-static-bottom navbar-fixed-bottom text-center py-5">
-          <p class="m-0">Copyright &copy; Your Website 2017</p>
-        </div>
-      </footer>
+
+<div id="footer">
+<footer class="bg-faded text-center py-5">
+  <div class="container">
+    <p class="m-0">Copyright &copy; Your Website 2017</p>
+  </div>
+</footer>
+
+<!----
+<div class="footer">
+  <div class="navbar navbar-default navbar-static-bottom navbar-fixed-bottom text-center py-5">
+      <p class="m-0">&copy; 2017 Climate Adaption and Mitigation Project</p>
     </div>
+  </footer>
+</div>
+!--->
+
   </body>
   <!--endbody-->
 

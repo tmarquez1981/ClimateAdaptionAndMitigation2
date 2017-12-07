@@ -1,0 +1,35 @@
+<!-- A template html to build other html files from -->
+{% load staticfiles %}
+<html>
+  <head>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
+    <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/about.js"></script>
+
+    <title>Login</title>
+
+  </head>
+  <body>
+    <div class="container">
+    <h1>Welcome</h1>
+      You can login here!
+      <button class="btn btn-default" type="button" name="button">Login</Button>
+      </div>
+
+
+
+        <div class="footer">
+          <footer class="bg-faded text-center py-5">
+            <div class="container">
+              <p class="m-0">Copyright &copy; Your Website 2017</p>
+            </div>
+          </footer>
+        </div>
+
+    </body>
+
+</html>
