@@ -134,6 +134,8 @@
           });
 
           //array of markers
+          var markers = [];
+          /*
           var markers = [
             {
               coords:{lat:61.2181,lng:-149.9003},
@@ -141,7 +143,7 @@
               content:'<h3>Some content here</h3>'
             }
           ];
-
+          */
           // get the size of the entity dictionary
           var entSize = Object.keys(entities).length;
 
@@ -165,17 +167,18 @@
             markers.push(
             {
               coords:{lat:lat,lng:long},
-              icon:marker,
+              icon: marker,
               content:contentInfo
             });
 
           }
 
-          //loop through markers
+          //loop through markers and add them to the map
           for(var i = 0; i < markers.length; i++){
             addMarker(markers[i]);
           }
 
+          // get the content of the entity object
           function getContent(entity){
             var contentString = "";
             var label = entity.Name;
@@ -208,13 +211,19 @@
             var marker = new google.maps.Marker({
               position:props.coords,
               map:map,
-              icon:props.icon
+              icon: {
+                url: props.icon,
+                // This marker is 20 pixels wide by 32 pixels high.
+                scaledSize: new google.maps.Size(25, 25),
+              }
+              //icon: getMarker(props.)
             });
 
             //check for custom icon
+
             if(props.icon){
               //set icon image
-              marker.setIcon(props.icon);
+              marker.setIcon(marker.icon);
             }
 
             //check for content
@@ -234,39 +243,26 @@
           //('Government', 'Government'), ('NGO', 'NGO'), ('Tribal', 'Tribal'),
               //('ForProfit', 'ForProfit'), ('Academic', 'Academic'), ('Null', 'Null')
           function getMarker(entity){
-            var icon = {};
+            var icon = "";
             var path = "http://127.0.0.1:8000/";
             if(entity.Type === "Government"){
-              icon: {
-                url: path + "static/img/Official_3.png"
-              };
+              icon = '/static/files/img/Official_3.png';
              }
             else if(entity.Type === "NGO"){
-              icon: {
-                url: path + "static/img/Official_2.png"
-              };
+              icon = '/static/files/img/Official_2.png';
             }
             else if(entity.Type === "Tribal"){
-              icon: {
-                url: path + "static/img/Official_1.png"
-              };
+              icon = '/static/files/img/Official_1.png';
             }
             else if(entity.Type === "ForProfit"){
-              icon: {
-                url: path + "static/img/Official_3.png"
-              };
+              icon = '/static/files/img/Official_3.png';
             }
             else if(entity.Type === "Academic"){
-              icon: {
-                url: path + "static/img/School_1.png"
-              };
+              icon = '/static/files/img/School_1.png';
             }
             else{
-              icon: {
-                url: "http://127.0.0.1:8000//static/img/Info_4.png"
-              };
+              icon = '/static/files/img/Info_4.png';
             }
-
             return icon;
           }
             //draw lines between points
