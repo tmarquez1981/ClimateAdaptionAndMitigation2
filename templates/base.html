@@ -1,0 +1,99 @@
+
+<html>
+<body>
+<div class='container'>
+  {% block content %}
+  {% load staticfiles %}
+  <head>
+
+    <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
+    <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="/static/js/home.js"></script>
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <h1></h1>
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Climate Adaptation and Mitigation Project</div>
+    <h1></h1>
+
+    <style>
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+      }
+    </style>
+
+    <style>
+      #footer{
+        width:100%;
+        position:fixed;
+        bottom:0;
+        left:0;
+      }
+    </style>
+
+  </head>
+
+      <div>
+    <!--navbar begin-->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <!--<a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>-->
+
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+              <ul class="nav navbar-nav navbar-center">
+                <li class="active"><a href="/ClimateAdaptationMitigation/home">Home</a></li>
+
+                <!--dropdown for navbar begin -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a SNA Visualization <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+                  </ul>
+                </li>
+                <!--dropdown for navbar ends -->
+
+                <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
+                <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
+                <li id="form"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
+              </ul>
+          </div>
+        </div>
+        </nav>
+
+        <style>
+        #mainHeader {
+          color: white;
+          text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+        }
+      </style>
+
+      </div>
+
+  {% endblock content %}
+</div>
+
+</body>
+</html>

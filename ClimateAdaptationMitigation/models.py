@@ -14,6 +14,7 @@
 
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
+from django.core.urlresolvers import reverse
 
 @python_2_unicode_compatible #for python 2 users
 
@@ -31,17 +32,21 @@ class Entity(models.Model):
     description = models.TextField(blank=True)  #field for adding description
                                                 #of Entity
                                                 #can be null
-    date = models.DateTimeField(auto_now=True)#timestamp of post                                            
+    date = models.DateTimeField(auto_now=True)#timestamp of post
 
     def __str__(self):
         return "Entity: {}".format(self.Abr)
+
+    def get_absolute_url(self):
+        return "/entities/%s/" %(self.id)
+        #return reverse("NameOfUrl", kwargs={"id": self.id})
 
 
 @python_2_unicode_compatible
 class Edges(models.Model):
     source = models.CharField(max_length=10)
     target = models.CharField(max_length=10)
-    type = models.CharField(max_length=15)
+    types = models.CharField(max_length=15)
     ##id = models.IntegerField()
     affiltype = models.CharField(max_length=20)
     regultype = models.CharField(max_length=20)
@@ -49,3 +54,6 @@ class Edges(models.Model):
     ##displays the objects in a "Source: <source name> Target: <target name> " format
     def __str__(self):
         return "Source: {0} Target: {1}".format(self.source, self.target)
+
+    def get_absolute_url(self):
+        return "/edges/%s/" %(self.id)

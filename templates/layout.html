@@ -1,8 +1,6 @@
-<!-- for the general user form -->
 {% load staticfiles %}
 <html>
 <head>
-
   <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
   <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
   <script src="/static/js/jquery.min.js"></script>
@@ -23,7 +21,7 @@
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-  }
+    }
   </style>
 
   <style>
@@ -34,14 +32,10 @@
       left:0;
     }
   </style>
-
 </head>
-
-<!--body-->
 <body>
-
   <div>
-    <!--navbar begin-->
+<!--navbar begin-->
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -56,7 +50,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav navbar-center">
-            <li><a href="/ClimateAdaptationMitigation/home">Home</a></li>
+            <li class="active"><a href="/ClimateAdaptationMitigation/home">Home</a></li>
 
             <!--dropdown for navbar begin -->
             <li class="dropdown">
@@ -73,94 +67,29 @@
 
             <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
             <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
-            <li id="form" class="active"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
+            <li id="form"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
           </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-          </ul>
-        </div>
-      </nav>
-
-      <!--navbar end-->
+      </div>
     </div>
+    </nav>
 
-    <div class="container">
+    <style>
+    #mainHeader {
+      color: white;
+      text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    }
+  </style>
 
-        <div class="row">
-          <div class="col-lg-3-offset-lg-3">
-            <h1 id="paragraph">
-              Please fill out this form to add or modify an institution:
-            </h1>
-          </div>
-
-        </div>
-    </div>
-    <h4>
-      &nbsp;
-    </h4>
-
-    <div class="container">
-      <form method='POST' action=''>
-        {% csrf_token %} <!--for security-->
-        {{ form.errors }}
-
-        <div class="row">
-          <div class="col-md-6 mb-3">
-
-            <label for="id_Abr">Organization Name</label>
-            {{ form.Abr }}
-          </div>
-
-          <div class="col-md-6 mb-3">
-            <label for="Label">Organization </label>
-            {{ form.Label}}
-          </div>
-        </div>
-      </br>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="id_Lng">Longitude</label>
-            {{ form.Lng}}
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="id_Lat">Latitude</label>
-            {{ form.Lat}}
-          </div>
-        </div>
-      </br>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="id_ScopeCleaned">Scope</label>
-            {{ form.ScopeCleaned }}
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="id_InstitutionalType">Type</label>
-            {{ form.InstitutionalType }}
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="IssueFocus">Issue</label>
-            {{ form.IssueFocus}}
-          </div>
-
-        </div>
-
-        </br>
-        <button class="btn btn-primary" type="submit">Submit</button>
-      </form>
-
-
-</div>
-</div>
-
-<div id="footer">
-<footer class="bg-faded text-center py-5">
-  <div class="container">
-    <p class="m-0">Copyright &copy; Your Website 2017</p>
   </div>
-</footer>
-
-
+  <div id="footer">
+  <footer class="bg-faded text-center py-5">
+    <div class="container">
+      <p class="m-0">Copyright &copy; Your Website 2017</p>
+    </div>
+  </footer>
 </body>
-<!--endbody-->
-
 </html>

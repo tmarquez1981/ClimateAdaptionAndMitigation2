@@ -4,6 +4,7 @@
 from django import forms
 from .models import Entity
 
+#for the user form
 class FormForm(forms.ModelForm):
 
     SCOPE_LIST = (
@@ -28,23 +29,20 @@ class FormForm(forms.ModelForm):
         attrs={
             'class': 'form-control',
             'placeholder': 'Organization Name'
-        })) ##VARCHAR(10)
+        }))
     Label = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
             'placeholder': 'Ex: Anchorage, Alaska'
         }))
-    Location = forms.CharField(widget=forms.TextInput(
-        attrs={
-            'class': 'form-control',
-            'placeholder': 'Ex: Anchorage, Alaska'
-        }))
+    #Location = forms.CharField(widget=forms.TextInput(
+    #    attrs={
+    #        'class': 'form-control',
+    #        'placeholder': 'Ex: Anchorage, Alaska'
+    #    }))
     ScopeCleaned = forms.CharField(widget=forms.Select(choices=SCOPE_LIST))
-
     InstitutionalType = forms.CharField(widget=forms.Select(choices=INSTTYPES))
-
     IssueFocus = forms.CharField(widget=forms.Select(choices=ISSUES))
-
     Lat = forms.DecimalField()
     Lng = forms.DecimalField()
     source = forms.CharField(widget=forms.TextInput(
@@ -60,6 +58,9 @@ class FormForm(forms.ModelForm):
 
     class Meta:
         model = Entity
-        fields = ('Abr', 'Label', 'Location', 'ScopeCleaned',
+        #fields = ('Abr', 'Label', 'Location', 'ScopeCleaned',
+        #        'InstitutionalType', 'IssueFocus', 'Lat', 'Lng',
+        #        'source', 'description,)
+        fields = ('Abr', 'Label', 'ScopeCleaned',
                 'InstitutionalType', 'IssueFocus', 'Lat', 'Lng',
-                'source', 'description',)
+                 )

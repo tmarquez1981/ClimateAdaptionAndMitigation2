@@ -22,4 +22,4 @@ class EntityResource(resources.ModelResource):
 class EdgeResource(resources.ModelResource):
     class Meta:
         model = Edges
-        import_id_fields = ('source', 'target', 'type', 'weight', 'affiltype', 'regultype',)
+        import_id_fields = ('source', 'target', 'types', 'affiltype', 'regultype',)
