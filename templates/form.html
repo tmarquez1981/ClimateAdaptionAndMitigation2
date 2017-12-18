@@ -35,12 +35,19 @@
     }
   </style>
 
+  <style>
+  #navbar{
+    position: relative;
+    z-index: 999;
+  }
+  </style>
+
 </head>
 
 <!--body-->
 <body>
 
-  <div>
+  <div id="navbar">
     <!--navbar begin-->
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -62,7 +69,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a SNA Visualization <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
+                <li><a href="/ClimateAdaptationMitigation/organizationmap">Geographical</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
                 <li role="separator" class="divider"></li>
@@ -84,20 +91,18 @@
       <!--navbar end-->
     </div>
 
-    <div class="container">
+    <style>
+    #labels{
+      color: white;
+      text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    }
+  </style>
 
-        <div class="row">
-          <div class="col-lg-3-offset-lg-3">
-            <h1 id="paragraph">
-              Please fill out this form to add or modify an institution:
-            </h1>
-          </div>
 
-        </div>
-    </div>
-    <h4>
-      &nbsp;
-    </h4>
 
     <div class="container">
       <form method='POST' action=''>
@@ -107,53 +112,53 @@
         <div class="row">
           <div class="col-md-6 mb-3">
 
-            <label for="id_Abr">Organization Name</label>
+            <label for="id_Abr" id="labels">Organization Name</label>
             {{ form.Abr }}
           </div>
 
           <div class="col-md-6 mb-3">
-            <label for="Label">Organization </label>
+            <label for="Label" id="labels">Organization </label>
             {{ form.Label}}
           </div>
         </div>
       </br>
         <div class="row">
           <div class="col-md-3 mb-3">
-            <label for="id_Location">Location</label>
+            <label for="id_Location" id="labels">Location</label>
             {{ form.Location }}
           </div>
           <div class="col-md-3 mb-3">
-            <label for="id_source">Source URL </label>
+            <label for="id_source" id="labels">Source URL </label>
             {{ form.source}}
           </div>
           <div class="col-md-3 mb-6">
-            <label for="id_description">Description </label>
+            <label for="id_description" id="labels">Description </label>
             {{ form.description}}
           </div>
         </div>
       </br>
         <div class="row">
           <div class="col-md-3 mb-3">
-            <label for="id_Lng">Longitude</label>
+            <label for="id_Lng" id="labels">Longitude</label>
             {{ form.Lng}}
           </div>
           <div class="col-md-3 mb-3">
-            <label for="id_Lat">Latitude</label>
+            <label for="id_Lat" id="labels">Latitude</label>
             {{ form.Lat}}
           </div>
         </div>
       </br>
         <div class="row">
           <div class="col-md-3 mb-3">
-            <label for="id_ScopeCleaned">Scope</label>
+            <label for="id_ScopeCleaned" id="labels">Scope</label>
             {{ form.ScopeCleaned }}
           </div>
           <div class="col-md-3 mb-3">
-            <label for="id_InstitutionalType">Type</label>
+            <label for="id_InstitutionalType" id="labels">Type</label>
             {{ form.InstitutionalType }}
           </div>
           <div class="col-md-3 mb-3">
-            <label for="IssueFocus">Issue</label>
+            <label for="IssueFocus" id="labels">Issue</label>
             {{ form.IssueFocus}}
           </div>
 
