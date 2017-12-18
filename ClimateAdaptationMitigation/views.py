@@ -6,7 +6,7 @@ from django.core import serializers
 from django.core.serializers.json import DjangoJSONEncoder
 from django.template.response import TemplateResponse
 import csv
-import os.path
+from os.path import abspath, dirname
 import os
 from django.template import RequestContext
 from django.utils.encoding import smart_str
@@ -34,8 +34,10 @@ class FormView(TemplateView):
         #instance = get_object_or_404(Edges, id=2)
         entities = Entity.objects.all() #returns all the objects in the database
 
+        currenDIR = abspath(dirname( __file__ ))
+
         #cwd = os.getcwd()
-        subprocess.call(['java', '-jar', '/home/tom/Climate/bin/Climate/ClimateAdaptationMitigation/mavenproject1-1.0-SNAPSHOT.jar'])
+        subprocess.call(['java', '-jar', currenDIR + '/mavenproject1-1.0-SNAPSHOT.jar'])
 
         args = {'form': form, 'entities': entities}
         return render(request, self.form_template_name, args)
@@ -136,8 +138,11 @@ class EdgeView(TemplateView):
 
                 #write edges model to edges.gdf after post is successful
                 edges = Edges.objects.all()
+                # grab current directory
+                currenDIR = os.getcwd()
                 #edges = Edges._meta.fields
-                path = '/home/tom/Climate/bin/Climate/static/files/edges.gdf'
+                # gets path to manage.py and appends to gdf file location
+                path = currenDIR + '/static/files/edges.gdf'
                 self.writeToGDF(edges, path)
 
                 #run gephi
@@ -184,7 +189,8 @@ class EdgeView(TemplateView):
     #function to run gephi after post to edge forms
     #refernced from https://stackoverflow.com/questions/7372592/python-how-can-i-execute-a-jar-file-through-a-python-script/7372651
     def runGephi(self):
-        subprocess.call(['java', '-jar', '/home/tom/Climate/bin/Climate/ClimateAdaptationMitigation/mavenproject1-1.0-SNAPSHOT.jar'])
+        currenDir = os.getcwd()
+        subprocess.call(['java', '-jar', currenDir + '/ClimateAdaptationMitigation/mavenproject1-1.0-SNAPSHOT.jar'])
 
 """
 class ContactForm(TemplateView):
