@@ -33,13 +33,13 @@ class FormForm(forms.ModelForm):
     Label = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
+            'placeholder': 'Label'
+        }))
+    Location = forms.CharField(widget=forms.TextInput(
+        attrs={
+            'class': 'form-control',
             'placeholder': 'Ex: Anchorage, Alaska'
         }))
-    #Location = forms.CharField(widget=forms.TextInput(
-    #    attrs={
-    #        'class': 'form-control',
-    #        'placeholder': 'Ex: Anchorage, Alaska'
-    #    }))
     ScopeCleaned = forms.CharField(widget=forms.Select(choices=SCOPE_LIST))
     InstitutionalType = forms.CharField(widget=forms.Select(choices=INSTTYPES))
     IssueFocus = forms.CharField(widget=forms.Select(choices=ISSUES))
@@ -48,12 +48,12 @@ class FormForm(forms.ModelForm):
     source = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
-            'placeholder': 'Ex: Anchorage, Alaska'
+            'placeholder': 'www.place.com'
         }))
     description = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
-            'placeholder': 'Ex: Anchorage, Alaska'
+            'placeholder': 'description'
         }))
 
     class Meta:
@@ -61,6 +61,6 @@ class FormForm(forms.ModelForm):
         #fields = ('Abr', 'Label', 'Location', 'ScopeCleaned',
         #        'InstitutionalType', 'IssueFocus', 'Lat', 'Lng',
         #        'source', 'description,)
-        fields = ('Abr', 'Label', 'ScopeCleaned',
+        fields = ('Abr', 'Label', 'Location', 'ScopeCleaned',
                 'InstitutionalType', 'IssueFocus', 'Lat', 'Lng',
-                 )
+                 'source',)

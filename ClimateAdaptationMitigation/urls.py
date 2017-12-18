@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from django.views.generic import TemplateView
-from ClimateAdaptationMitigation.views import FormView, MapView
+from ClimateAdaptationMitigation.views import FormView, MapView, EdgeView
 
 urlpatterns = [
     #url(r'^home', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/home.html")),
@@ -19,7 +19,8 @@ urlpatterns = [
         #url(r'^organizationmap', TemplateView.as_view(template_name="organizationmap.html")),
         #url(r'^form', TemplateView.as_view(template_name="form.html")),
         url(r'^form/$', FormView.as_view(), name='post'),
-        url(r'^organizationmap/$', MapView.as_view(), name='post'),
+        url(r'^organizationmap/$', MapView.as_view(), name='organizationmap'),
+        url(r'^edgeform', EdgeView.as_view(), name='post'),
         url(r'^page/(?P<id>\d+)/$', FormView.as_view(), name='post_detail'),
         url(r'^page/(?P<id>\d+)/$', FormView.as_view(), name='post_update'),
         url(r'^page/(?P<id>\d+)/$', FormView.as_view(), name='post_delete'),

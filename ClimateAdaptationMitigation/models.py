@@ -28,7 +28,7 @@ class Entity(models.Model):
     IssueFocus = models.CharField(max_length=20)
     Lat = models.DecimalField(max_digits=9, decimal_places=6)
     Lng = models.DecimalField(max_digits=9, decimal_places=6)
-    source = models.CharField(max_length=40)
+    source = models.CharField(max_length=100)
     description = models.TextField(blank=True)  #field for adding description
                                                 #of Entity
                                                 #can be null

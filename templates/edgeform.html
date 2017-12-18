@@ -73,7 +73,7 @@
 
             <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
             <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
-            <li id="form" class="active"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
+            <li id="form"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
@@ -89,7 +89,7 @@
         <div class="row">
           <div class="col-lg-3-offset-lg-3">
             <h1 id="paragraph">
-              Please fill out this form to add or modify an institution:
+              Please fill out this form to make changes to the visualizations
             </h1>
           </div>
 
@@ -107,62 +107,30 @@
         <div class="row">
           <div class="col-md-6 mb-3">
 
-            <label for="id_Abr">Organization Name</label>
-            {{ form.Abr }}
+            <label for="source">Organization Name</label>
+            {{ form.source }}
           </div>
 
           <div class="col-md-6 mb-3">
-            <label for="Label">Organization </label>
-            {{ form.Label}}
+            <label for="target">Target Organization </label>
+            {{ form.target}}
           </div>
         </div>
       </br>
         <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="id_Location">Location</label>
-            {{ form.Location }}
+          <div class="col-md-6 mb-3">
+            <label for="affiltype">Affiliation Type</label>
+            {{ form.affiltype }}
           </div>
-          <div class="col-md-3 mb-3">
-            <label for="id_source">Source URL </label>
-            {{ form.source}}
+          <div class="col-md-6 mb-3">
+            <label for="regultype">Regulation Type </label>
+            {{ form.regultype}}
           </div>
-          <div class="col-md-3 mb-6">
-            <label for="id_description">Description </label>
-            {{ form.description}}
-          </div>
-        </div>
       </br>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="id_Lng">Longitude</label>
-            {{ form.Lng}}
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="id_Lat">Latitude</label>
-            {{ form.Lat}}
-          </div>
         </div>
-      </br>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="id_ScopeCleaned">Scope</label>
-            {{ form.ScopeCleaned }}
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="id_InstitutionalType">Type</label>
-            {{ form.InstitutionalType }}
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="IssueFocus">Issue</label>
-            {{ form.IssueFocus}}
-          </div>
-
-        </div>
-
         </br>
         <button class="btn btn-primary" type="submit">Submit</button>
       </form>
-
 
 </div>
 </div>

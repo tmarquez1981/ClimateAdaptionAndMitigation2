@@ -76,7 +76,7 @@
 
             <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
             <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
-            <li id="form" class="active"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
+            <li id="form"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
@@ -94,7 +94,7 @@
         <h3>My Google Maps Demo</h3>
         <!--<p id="queryset" value={{ queryset|safe|escape|striptags }}</p>-->
           <div id="map"></div>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKH_cFYUzsJiimkElXIL0R_Spwfg4Z5Tw&"></script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKH_cFYUzsJiimkElXIL0R_Spwfg4Z5Tw&sensor=false&libraries=places"></script>
 
           <script>
           // grab data in json format
@@ -132,6 +132,7 @@
             zoom: 4,
             center: position
           });
+          var searchBox = new google.maps.places.SearchBox(document.getElementById('map'));
 
           //array of markers
           var markers = [];
@@ -257,7 +258,7 @@
             else if(entity.Type === "ForProfit"){
               icon = '/static/files/img/Official_3.png';
             }
-            else if(entity.Type === "Academic"){
+            else if(entity.Type === "academic"){
               icon = '/static/files/img/School_1.png';
             }
             else{
@@ -281,12 +282,6 @@
 
           </script>
 
-          <!--<script src="/static/js/organizationmap.js"></script>-->
-          <!--
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKH_cFYUzsJiimkElXIL0R_Spwfg4Z5Tw&callback=initMap">
-        </script>
-      -->
     </div>
 
   </div>
