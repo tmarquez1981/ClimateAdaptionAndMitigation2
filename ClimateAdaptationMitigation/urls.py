@@ -1,4 +1,7 @@
 from django.conf.urls import url
+from django.contrib import admin
+from . import views
+from django.contrib.auth.views import login, logout
 from django.views.generic import TemplateView
 from ClimateAdaptationMitigation.views import FormView
 
@@ -10,7 +13,9 @@ urlpatterns = [
     #url(r'^scope', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/scope.html")),
     #url(r'^type', TemplateView.as_view(template_name="ClimateAdaptationMitigation/html/type.html")),
 
+
         url(r'^home', TemplateView.as_view(template_name="home.html")),
+        url(r'^login', TemplateView.as_view(template_name="login.html")),
         url(r'^map', TemplateView.as_view(template_name="map.html")),
         url(r'^contact', TemplateView.as_view(template_name="contact.html")),
         url(r'^about', TemplateView.as_view(template_name="about.html")),

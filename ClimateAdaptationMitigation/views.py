@@ -7,7 +7,6 @@ from .models import Entity
 
 # Create your views here.
 
-
 class FormView(TemplateView):
     template_name = 'form.html'
 

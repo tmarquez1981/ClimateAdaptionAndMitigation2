@@ -51,7 +51,7 @@
       s.graph.edges().forEach(function(e) {
         e.originalColor = e.color;
       });
-      
+
             nodes = s.graph.getNodesCount();
             console.log(nodes);
 
