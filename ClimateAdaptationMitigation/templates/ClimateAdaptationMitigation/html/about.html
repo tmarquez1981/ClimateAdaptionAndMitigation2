@@ -1,0 +1,80 @@
+{% load staticfiles %}
+<html>
+  <head>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="{% static '/css/business-casual.css' %}">
+    <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/about.js"></script>
+  </head>
+  <body>
+
+
+    <div>
+<!-- navbar starts -->
+
+      <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
+
+            <!--dropdown for navbar begin -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a Data Visualization <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/ClimateAdaptationMitigation/map">Original</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+              </ul>
+            </li>
+            <!--dropdown for navbar ends -->
+
+            <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
+            <li id="about" class="active"><a href="/ClimateAdaptationMitigation/about">About</a></li>>
+            <li><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </div>
+      </nav>
+    </div>
+
+<!--navbar ends-->
+    <div>
+      <!--<button id="demo">click button</button>-->
+    </div>
+        <script
+        src="http://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+        </script>
+            <script src="/static/js/about.js"></script>
+
+
+        <div class="footer">
+          <footer class="bg-faded text-center py-5">
+            <div class="container">
+              <p class="m-0">Copyright &copy; Your Website 2017</p>
+            </div>
+          </footer>
+        </div>
+
+    </body>
+
+
+</html>
