@@ -21,6 +21,7 @@ from .models import Entity, Edges
 
 # Create views here.
 
+#view for the organization form
 class FormView(TemplateView):
     form_template_name = 'form.html'
     delete_template_name = 'delete.html'
@@ -34,10 +35,10 @@ class FormView(TemplateView):
         #instance = get_object_or_404(Edges, id=2)
         entities = Entity.objects.all() #returns all the objects in the database
 
-        currenDIR = abspath(dirname( __file__ ))
-
-        #cwd = os.getcwd()
-        subprocess.call(['java', '-jar', currenDIR + '/mavenproject1-1.0-SNAPSHOT.jar'])
+        #get current working directory
+        currenDir = abspath(dirname(__file__))
+        #testing to see if gephi jar file call works...
+        subprocess.call(['java', '-jar', currenDir + '/toolkit-demos-0.9.2.jar'])
 
         args = {'form': form, 'entities': entities}
         return render(request, self.form_template_name, args)
@@ -55,7 +56,6 @@ class FormView(TemplateView):
 
         else:
             messages.error(request, "Not Successfully Created")
-            #args = {'form': form, 'text': text}
             args = {'form': form, 'entities': entities}
             return render(request, self.form_template_name, args)
 
@@ -69,6 +69,7 @@ class FormView(TemplateView):
         }
         return render(request, "test.html", context)
 
+#view for the Google maps api
 class MapView(TemplateView):
     template_name = 'organizationmap.html'
 
@@ -111,10 +112,10 @@ class MapView(TemplateView):
 
             return TemplateResponse(request, '/static/templates/organizationmap.html', {})
 
+#view for the edge form
 class EdgeView(TemplateView):
     template_name = 'edgeform.html'
     home_template_name = 'home.html'
-
 
     def get(self, request):
         form = EdgeForm()
@@ -138,12 +139,12 @@ class EdgeView(TemplateView):
 
                 #write edges model to edges.gdf after post is successful
                 edges = Edges.objects.all()
-                # grab current directory
-                currenDIR = os.getcwd()
+                entities = Entity.objects.all()
                 #edges = Edges._meta.fields
-                # gets path to manage.py and appends to gdf file location
-                path = currenDIR + '/static/files/edges.gdf'
-                self.writeToGDF(edges, path)
+                #get directory of manage.py and append location of gdf file
+                currenDir = os.getcwd()
+                path = currenDir + '/static/files/edges.gdf'
+                self.writeToGDF(entities, edges, path)
 
                 #run gephi
                 self.runGephi()
@@ -163,11 +164,37 @@ class EdgeView(TemplateView):
     # from the database. Seemed simpler to implement at the moment
     # a GDF file is similar to a CSV, so thoeritically this should work
     # references site: http://palewi.re/posts/2009/03/03/django-recipe-dump-your-queryset-out-as-a-csv-file/
-    def writeToGDF(self, qs, file_path):
+    def writeToGDF(self, qsEntity, qsEdges, file_path):
         #model = qs.model
         writer = csv.writer(open(file_path, 'w'))
 
-        #writes the headers to file
+        #writes the headers for nodes to file
+        writer.writerow([
+            smart_str(u"nodedef>name VARCHAR"),
+            smart_str(u"label VARCHAR"),
+            smart_str(u"location VARCHAR"),
+            smart_str(u"scope VARCHAR"),
+            smart_str(u"type VARCHAR"),
+            smart_str(u"issue VARCHAR"),
+            smart_str(u"lat DOUBLE"),
+            smart_str(u"lng DOUBLE"),
+        ])
+
+        for obj in qsEntity:
+            writer.writerow([
+            smart_str(obj.Abr),
+            smart_str(obj.Label),
+            smart_str(obj.Location),
+            smart_str(obj.ScopeCleaned),
+            smart_str(obj.InstitutionalType),
+            smart_str(obj.IssueFocus),
+            smart_str(obj.Lat),
+            smart_str(obj.Lng),
+            smart_str(obj.source),
+            smart_str(obj.description),
+            ])
+
+        #write headers for edges
         writer.writerow([
             smart_str(u"edgedef>node1 VARCHAR"),
             smart_str(u"node2 VARCHAR"),
@@ -177,7 +204,7 @@ class EdgeView(TemplateView):
         ])
 
         #loop through all the edges and write to file
-        for obj in qs:
+        for obj in qsEdges:
             writer.writerow([
             smart_str(obj.source),
             smart_str(obj.target),
@@ -186,12 +213,15 @@ class EdgeView(TemplateView):
             smart_str(obj.regultype),
         ])
 
+    #TODO:function will successfully run a jar file, but pathing issues with
+    # the file names cause an null pointer
     #function to run gephi after post to edge forms
     #refernced from https://stackoverflow.com/questions/7372592/python-how-can-i-execute-a-jar-file-through-a-python-script/7372651
     def runGephi(self):
-        currenDir = os.getcwd()
-        subprocess.call(['java', '-jar', currenDir + '/ClimateAdaptationMitigation/mavenproject1-1.0-SNAPSHOT.jar'])
+        currenDir = abspath(dirname(__file__))
+        subprocess.call(['java', '-jar', currenDir + 'toolkit-demos-0.9.2.jar'])
 
+#TODO:view for the contact form
 """
 class ContactForm(TemplateView):
 
