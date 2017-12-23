@@ -30,7 +30,7 @@ IMPORT_EXPORT_USE_TRANSACTIONS = False
 
 IMPORT_EXPORT_SKIP_ADMIN_LOG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
