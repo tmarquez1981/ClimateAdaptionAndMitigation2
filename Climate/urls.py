@@ -20,8 +20,6 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 from django.views.decorators.csrf import ensure_csrf_cookie
 
-
-
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', TemplateView.as_view(template_name="/home.html")),
@@ -30,7 +28,6 @@ urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name="/map.html")),
     url(r'^$', TemplateView.as_view(template_name="/scope.html")),
     url(r'^$', TemplateView.as_view(template_name="/type.html")),
-    #url(r'^posts/$', "ClimateAdaptationMitigation.views.post_home"),
     url(r'^ClimateAdaptationMitigation/', include('ClimateAdaptationMitigation.urls')),
 ]
 

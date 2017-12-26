@@ -10,7 +10,7 @@ from os.path import abspath, dirname
 import os
 from django.template import RequestContext
 from django.utils.encoding import smart_str
-from django.urls import reverse
+#from django.urls import reverse
 #from py4j.java_gateway import JavaGateway
 import subprocess
 #from django.db.models.loading import get_model
