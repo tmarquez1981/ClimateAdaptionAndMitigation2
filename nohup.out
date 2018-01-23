@@ -1,0 +1,308 @@
+[05/Jan/2018 04:26:14] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 04:26:16] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[05/Jan/2018 04:26:25] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 04:26:27] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[05/Jan/2018 04:26:28] "GET /ClimateAdaptationMitigation/contact HTTP/1.1" 200 5412
+Error: Unable to access jarfile /home/students/ehan2/ClimateAdaptionAndMitigation2/ClimateAdaptationMitigation/toolkit-demos-0.9.2.jar
+[05/Jan/2018 04:26:29] "GET /ClimateAdaptationMitigation/form/ HTTP/1.1" 200 7248
+[05/Jan/2018 04:26:30] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 04:26:41] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 04:26:42] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[05/Jan/2018 04:26:43] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 04:44:33] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 04:44:34] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[05/Jan/2018 06:02:29] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[05/Jan/2018 06:05:28] "GET /vendor/phpunit/phpunit/src/Util/Filter.php HTTP/1.1" 404 2905
+[05/Jan/2018 06:21:26] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 06:21:27] "GET /static/css/business-casual.css HTTP/1.1" 200 1729
+[05/Jan/2018 06:21:27] "GET /static/js/bootstrap.js HTTP/1.1" 200 69707
+[05/Jan/2018 06:21:27] "GET /static/css/bootstrap.css HTTP/1.1" 200 146013
+[05/Jan/2018 06:21:32] "GET /ClimateAdaptationMitigation/scope HTTP/1.1" 200 3869
+[05/Jan/2018 06:21:53] "GET /ClimateAdaptationMitigation/scope HTTP/1.1" 200 3869
+[05/Jan/2018 06:21:58] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[05/Jan/2018 06:22:00] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[05/Jan/2018 17:48:48] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 17:48:48] "GET /static/css/business-casual.css HTTP/1.1" 200 1729
+[05/Jan/2018 17:48:48] "GET /static/js/home.js HTTP/1.1" 200 1308
+[05/Jan/2018 17:48:48] "GET /static/js/bootstrap.js HTTP/1.1" 200 69707
+[05/Jan/2018 17:48:48] "GET /static/js/jquery.min.js HTTP/1.1" 200 86659
+[05/Jan/2018 17:48:48] "GET /static/css/bootstrap.css HTTP/1.1" 200 146013
+[05/Jan/2018 17:48:49] "GET /static/files/img/alaska4.jpg HTTP/1.1" 200 6355193
+[05/Jan/2018 17:48:49] "GET /favicon.ico HTTP/1.1" 404 2824
+[05/Jan/2018 17:50:20] "GET /ClimateAdaptationMitigation/organizationmap HTTP/1.1" 301 0
+[05/Jan/2018 17:50:21] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[05/Jan/2018 17:50:22] "GET /static/files/img/School_1.png HTTP/1.1" 200 4070
+[05/Jan/2018 17:50:22] "GET /static/files/img/Official_2.png HTTP/1.1" 200 3675
+[05/Jan/2018 17:50:22] "GET /static/files/img/Official_3.png HTTP/1.1" 200 2519
+[05/Jan/2018 17:50:22] "GET /static/files/img/Official_1.png HTTP/1.1" 200 3638
+[05/Jan/2018 17:50:22] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[05/Jan/2018 17:50:22] "GET /favicon.ico HTTP/1.1" 404 2824
+[05/Jan/2018 17:50:43] "GET /ClimateAdaptationMitigation/scope HTTP/1.1" 200 3869
+[05/Jan/2018 17:50:43] "GET /static/files/sigma.parsers.gexf.min.js HTTP/1.1" 200 6294
+[05/Jan/2018 17:50:43] "GET /static/js/scope.js HTTP/1.1" 200 2684
+[05/Jan/2018 17:50:43] "GET /static/files/sigma.min.js HTTP/1.1" 200 115407
+[05/Jan/2018 17:50:44] "GET /static/files/scope.gexf HTTP/1.1" 200 487675
+[05/Jan/2018 17:50:51] "GET /ClimateAdaptationMitigation/type HTTP/1.1" 200 3789
+[05/Jan/2018 17:50:51] "GET /static/js/type.js HTTP/1.1" 200 261
+[05/Jan/2018 17:50:51] "GET /static/files/type.gexf HTTP/1.1" 200 488043
+[05/Jan/2018 17:50:58] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[05/Jan/2018 17:51:03] "GET /ClimateAdaptationMitigation/contact HTTP/1.1" 200 5412
+[05/Jan/2018 17:51:07] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[05/Jan/2018 17:51:08] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[05/Jan/2018 17:51:14] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 23:51:32] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[05/Jan/2018 23:51:32] "GET /static/css/business-casual.css HTTP/1.1" 200 1729
+[05/Jan/2018 23:51:32] "GET /static/js/home.js HTTP/1.1" 200 1308
+[05/Jan/2018 23:51:32] "GET /static/js/bootstrap.js HTTP/1.1" 200 69707
+[05/Jan/2018 23:51:32] "GET /static/js/jquery.min.js HTTP/1.1" 200 86659
+[05/Jan/2018 23:51:32] "GET /static/css/bootstrap.css HTTP/1.1" 200 146013
+[05/Jan/2018 23:51:33] "GET /static/files/img/alaska4.jpg HTTP/1.1" 200 6355193
+[05/Jan/2018 23:51:33] "GET /favicon.ico HTTP/1.1" 404 2824
+[05/Jan/2018 23:51:56] "GET /ClimateAdaptationMitigation/organizationmap HTTP/1.1" 301 0
+[05/Jan/2018 23:51:56] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[05/Jan/2018 23:51:57] "GET /static/files/img/Official_3.png HTTP/1.1" 200 2519
+[05/Jan/2018 23:51:57] "GET /static/files/img/Official_2.png HTTP/1.1" 200 3675
+[05/Jan/2018 23:51:57] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[05/Jan/2018 23:51:57] "GET /static/files/img/Official_1.png HTTP/1.1" 200 3638
+[05/Jan/2018 23:51:57] "GET /static/files/img/School_1.png HTTP/1.1" 200 4070
+[05/Jan/2018 23:52:22] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[05/Jan/2018 23:52:23] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[05/Jan/2018 23:52:25] "GET /ClimateAdaptationMitigation/scope HTTP/1.1" 200 3869
+[05/Jan/2018 23:52:25] "GET /static/files/sigma.parsers.gexf.min.js HTTP/1.1" 200 6294
+[05/Jan/2018 23:52:25] "GET /static/js/scope.js HTTP/1.1" 200 2684
+[05/Jan/2018 23:52:25] "GET /static/files/sigma.min.js HTTP/1.1" 200 115407
+[05/Jan/2018 23:52:25] "GET /static/files/scope.gexf HTTP/1.1" 200 487675
+[05/Jan/2018 23:53:09] "GET /ClimateAdaptationMitigation/type HTTP/1.1" 200 3789
+[05/Jan/2018 23:53:09] "GET /static/js/type.js HTTP/1.1" 200 261
+[05/Jan/2018 23:53:09] "GET /static/files/type.gexf HTTP/1.1" 200 488043
+[05/Jan/2018 23:53:17] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[05/Jan/2018 23:53:24] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[05/Jan/2018 23:53:24] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[05/Jan/2018 23:53:32] "GET /ClimateAdaptationMitigation/scope HTTP/1.1" 200 3869
+[06/Jan/2018 04:55:31] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[06/Jan/2018 04:55:32] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[06/Jan/2018 04:55:32] "GET /static/js/home.js HTTP/1.1" 304 0
+[06/Jan/2018 04:55:32] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[06/Jan/2018 04:55:34] "GET /ClimateAdaptationMitigation/contact HTTP/1.1" 200 5412
+[06/Jan/2018 04:55:35] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[06/Jan/2018 07:13:45] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[06/Jan/2018 07:13:58] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[06/Jan/2018 07:15:18] "GET /ClimateAdaptationMitigation/contact HTTP/1.1" 200 5412
+Error: Unable to access jarfile /home/students/ehan2/ClimateAdaptionAndMitigation2/ClimateAdaptationMitigation/toolkit-demos-0.9.2.jar
+[06/Jan/2018 07:15:19] "GET /ClimateAdaptationMitigation/form/ HTTP/1.1" 200 7248
+[06/Jan/2018 07:15:23] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[06/Jan/2018 07:15:29] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[06/Jan/2018 07:15:30] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[06/Jan/2018 07:15:40] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[06/Jan/2018 07:15:41] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[06/Jan/2018 07:15:44] "GET /ClimateAdaptationMitigation/scope HTTP/1.1" 200 3869
+[06/Jan/2018 07:15:48] "GET /ClimateAdaptationMitigation/type HTTP/1.1" 200 3789
+[06/Jan/2018 07:15:48] "GET /static/js/type.js HTTP/1.1" 200 261
+[06/Jan/2018 07:15:50] "GET /static/files/type.gexf HTTP/1.1" 200 488043
+[06/Jan/2018 07:15:57] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[06/Jan/2018 11:24:05] "GET / HTTP/1.1" 500 70067
+- Broken pipe from ('139.162.79.87', 37688)
+[06/Jan/2018 21:20:06] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[06/Jan/2018 21:20:06] 
+[07/Jan/2018 04:09:16] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[07/Jan/2018 04:09:16] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[07/Jan/2018 04:09:16] "GET /static/css/business-casual.css HTTP/1.1" 304 0
+[07/Jan/2018 04:09:16] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[07/Jan/2018 04:09:16] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[07/Jan/2018 04:09:16] "GET /static/files/img/alaska4.jpg HTTP/1.1" 304 0
+[07/Jan/2018 04:09:18] "GET /static/files/img/Official_2.png HTTP/1.1" 304 0
+[07/Jan/2018 04:09:18] "GET /static/files/img/Official_3.png HTTP/1.1" 304 0
+[07/Jan/2018 04:09:18] "GET /static/files/img/Official_1.png HTTP/1.1" 304 0
+[07/Jan/2018 04:09:18] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[07/Jan/2018 04:09:18] "GET /static/files/img/School_1.png HTTP/1.1" 304 0
+[07/Jan/2018 19:51:25] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jan/2018 19:51:25] "    c                           " 400 -
+[08/Jan/2018 06:14:16] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7299
+[08/Jan/2018 06:14:16] "GET /static/css/business-casual.css HTTP/1.1" 304 0
+[08/Jan/2018 06:14:16] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[08/Jan/2018 06:14:16] "GET /static/js/home.js HTTP/1.1" 304 0
+[08/Jan/2018 06:14:16] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[08/Jan/2018 06:14:16] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[08/Jan/2018 06:14:16] "GET /static/files/img/alaska4.jpg HTTP/1.1" 304 0
+[08/Jan/2018 06:19:35] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[08/Jan/2018 06:19:40] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7360
+[08/Jan/2018 06:20:28] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7361
+[08/Jan/2018 06:21:20] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7369
+[08/Jan/2018 06:21:28] "GET /ClimateAdaptationMitigation/contact HTTP/1.1" 200 5412
+Error: Unable to access jarfile /home/students/ehan2/ClimateAdaptionAndMitigation2/ClimateAdaptationMitigation/toolkit-demos-0.9.2.jar
+[08/Jan/2018 06:21:29] "GET /ClimateAdaptationMitigation/form/ HTTP/1.1" 200 7248
+[08/Jan/2018 06:21:43] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+Error: Unable to access jarfile /home/students/ehan2/ClimateAdaptionAndMitigation2/ClimateAdaptationMitigation/toolkit-demos-0.9.2.jar
+[08/Jan/2018 06:21:47] "GET /ClimateAdaptationMitigation/form/ HTTP/1.1" 200 7248
+[08/Jan/2018 06:21:55] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[08/Jan/2018 06:21:56] "GET /static/files/img/Official_2.png HTTP/1.1" 304 0
+[08/Jan/2018 06:21:56] "GET /static/files/img/School_1.png HTTP/1.1" 304 0
+[08/Jan/2018 06:21:56] "GET /static/files/img/Official_1.png HTTP/1.1" 304 0
+[08/Jan/2018 06:21:56] "GET /static/files/img/Official_3.png HTTP/1.1" 304 0
+[08/Jan/2018 06:21:56] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[08/Jan/2018 06:22:00] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 102, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 167, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[08/Jan/2018 07:08:08] "GET / HTTP/1.0" 500 69329
+- Broken pipe from ('173.255.236.111', 38354)
+Error: Unable to access jarfile /home/students/ehan2/ClimateAdaptionAndMitigation2/ClimateAdaptationMitigation/toolkit-demos-0.9.2.jar
+[08/Jan/2018 07:27:07] "GET /ClimateAdaptationMitigation/form/ HTTP/1.1" 200 7248
+[08/Jan/2018 07:27:11] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+Error: Unable to access jarfile /home/students/ehan2/ClimateAdaptionAndMitigation2/ClimateAdaptationMitigation/toolkit-demos-0.9.2.jar
+[08/Jan/2018 07:27:14] "GET /ClimateAdaptationMitigation/form/ HTTP/1.1" 200 7248
+[08/Jan/2018 07:27:15] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[08/Jan/2018 23:46:21] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320566
+[08/Jan/2018 23:46:22] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[08/Jan/2018 23:52:11] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320562
+[08/Jan/2018 23:52:12] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[09/Jan/2018 10:40:41] "GET / HTTP/1.1" 500 70067
+- Broken pipe from ('139.162.79.87', 55074)
+[09/Jan/2018 15:02:30] "GET http://dx.doi.org/ HTTP/1.1" 404 1648
+[09/Jan/2018 19:27:31] "GET / HTTP/1.1" 500 70627
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 05, 2018 - 04:26:10
+Django version 1.8.7, using settings 'Climate.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('173.255.236.111', 37928)
+----------------------------------------
+[13/Jan/2018 08:35:58] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[13/Jan/2018 11:14:23] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Jan/2018 11:14:23] "    c                           " 400 -
+[13/Jan/2018 13:12:09] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[13/Jan/2018 13:12:09] 
+[13/Jan/2018 22:14:11] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Jan/2018 22:14:11] "    c                           " 400 -
+[14/Jan/2018 07:18:46] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[14/Jan/2018 07:18:48] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[14/Jan/2018 07:18:48] "GET /static/js/home.js HTTP/1.1" 304 0
+[14/Jan/2018 07:18:48] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[14/Jan/2018 19:26:10] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[14/Jan/2018 19:26:10] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[14/Jan/2018 19:26:10] "GET /static/css/business-casual.css HTTP/1.1" 304 0
+[14/Jan/2018 19:26:10] "GET /static/files/img/alaska4.jpg HTTP/1.1" 304 0
+[14/Jan/2018 20:54:30] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[14/Jan/2018 22:02:03] "GET / HTTP/1.1" 500 71516
+- Broken pipe from ('139.162.79.87', 38552)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 102, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 167, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[15/Jan/2018 08:41:14] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[15/Jan/2018 08:41:18] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7369
+[15/Jan/2018 08:41:21] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[15/Jan/2018 08:41:23] "GET /ClimateAdaptationMitigation/contact HTTP/1.1" 200 5412
+Error: Unable to access jarfile /home/students/ehan2/ClimateAdaptionAndMitigation2/ClimateAdaptationMitigation/toolkit-demos-0.9.2.jar
+[15/Jan/2018 08:41:24] "GET /ClimateAdaptationMitigation/form/ HTTP/1.1" 200 7248
+[15/Jan/2018 08:41:26] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[15/Jan/2018 08:41:28] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7369
+[15/Jan/2018 08:41:30] "GET /ClimateAdaptationMitigation/contact HTTP/1.1" 200 5412
+[15/Jan/2018 08:41:32] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7369
+[15/Jan/2018 08:41:34] "GET /ClimateAdaptationMitigation/organizationmap/ HTTP/1.1" 200 320538
+[15/Jan/2018 08:41:35] "GET /static/files/img/Official_1.png HTTP/1.1" 304 0
+[15/Jan/2018 08:41:35] "GET /static/files/img/Official_3.png HTTP/1.1" 304 0
+[15/Jan/2018 08:41:35] "GET /static/files/img/Official_2.png HTTP/1.1" 304 0
+[15/Jan/2018 08:41:35] "GET /static/files/img/School_1.png HTTP/1.1" 304 0
+[15/Jan/2018 08:41:35] "GET /static/files/img/Info_4.png HTTP/1.1" 404 1792
+[15/Jan/2018 08:41:36] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7369
+[15/Jan/2018 08:41:38] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[15/Jan/2018 19:07:20] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[16/Jan/2018 00:21:37] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[16/Jan/2018 00:23:07] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[16/Jan/2018 00:23:10] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7369
+[16/Jan/2018 00:23:13] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7281
+[16/Jan/2018 01:45:29] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[16/Jan/2018 01:45:57] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[16/Jan/2018 04:33:07] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[16/Jan/2018 06:26:03] "GET / HTTP/1.1" 500 71516
+- Broken pipe from ('139.162.79.87', 53770)
+[16/Jan/2018 07:52:36] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[16/Jan/2018 07:52:36] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[16/Jan/2018 07:52:36] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[16/Jan/2018 07:52:36] "GET /static/js/home.js HTTP/1.1" 304 0
+[16/Jan/2018 08:21:28] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[16/Jan/2018 21:21:41] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[16/Jan/2018 21:21:41] 
+[17/Jan/2018 02:15:04] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[17/Jan/2018 02:15:04] "GET /static/css/business-casual.css HTTP/1.1" 304 0
+[17/Jan/2018 02:15:04] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[17/Jan/2018 02:15:05] "GET /static/files/img/alaska4.jpg HTTP/1.1" 304 0
+[17/Jan/2018 23:42:12] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[17/Jan/2018 23:42:12] 
+[18/Jan/2018 05:25:13] "GET / HTTP/1.1" 500 71516
+- Broken pipe from ('139.162.79.87', 40104)
+[18/Jan/2018 10:06:03] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 13, 2018 - 08:35:52
+Django version 1.8.7, using settings 'Climate.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('46.101.17.49', 57546)
+----------------------------------------
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 18, 2018 - 21:34:02
+Django version 1.8.7, using settings 'Climate.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[20/Jan/2018 03:50:40] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[20/Jan/2018 03:50:40] 
+[20/Jan/2018 19:52:53] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[20/Jan/2018 19:52:53] "GET /static/css/bootstrap.css HTTP/1.1" 304 0
+[20/Jan/2018 19:52:53] "GET /static/css/business-casual.css HTTP/1.1" 304 0
+[20/Jan/2018 19:52:53] "GET /static/js/home.js HTTP/1.1" 304 0
+[20/Jan/2018 19:52:53] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[20/Jan/2018 19:52:53] "GET /static/js/bootstrap.js HTTP/1.1" 304 0
+[20/Jan/2018 19:52:53] "GET /static/files/img/alaska4.jpg HTTP/1.1" 304 0
+[20/Jan/2018 19:52:56] "GET /ClimateAdaptationMitigation/about HTTP/1.1" 200 7369
+[20/Jan/2018 19:52:57] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[21/Jan/2018 04:12:36] "GET / HTTP/1.1" 500 71516
+- Broken pipe from ('139.162.79.87', 41898)
+[22/Jan/2018 03:08:48] "GET /ClimateAdaptationMitigation/home HTTP/1.1" 200 7270
+[22/Jan/2018 03:57:11] "GET / HTTP/1.0" 500 70776
+[22/Jan/2018 03:59:08] "GET / HTTP/1.0" 500 70776
+[22/Jan/2018 03:59:08] "GET / HTTP/1.1" 500 70956
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[22/Jan/2018 03:59:08] "GET / HTTP/1.1" 500 59
+- Broken pipe from ('208.100.26.230', 51478)
+[22/Jan/2018 03:59:13] "GET / HTTP/1.1" 500 71438
