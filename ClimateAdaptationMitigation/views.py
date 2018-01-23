@@ -38,7 +38,7 @@ class FormView(TemplateView):
         #get current working directory
         currenDir = abspath(dirname(__file__))
         #testing to see if gephi jar file call works...
-        subprocess.call(['java', '-jar', currenDir + '/toolkit-demos-0.9.2.jar'])
+        # subprocess.call(['java', '-jar', currenDir + '/gephi-0.9.2.jar'])
 
         args = {'form': form, 'entities': entities}
         return render(request, self.form_template_name, args)
@@ -219,7 +219,7 @@ class EdgeView(TemplateView):
     #refernced from https://stackoverflow.com/questions/7372592/python-how-can-i-execute-a-jar-file-through-a-python-script/7372651
     def runGephi(self):
         currenDir = abspath(dirname(__file__))
-        subprocess.call(['java', '-jar', currenDir + 'toolkit-demos-0.9.2.jar'])
+        subprocess.call(['java', '-jar', currenDir + '/gephi-0.9.2.jar'])
 
 #TODO:view for the contact form
 """

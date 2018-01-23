@@ -291,6 +291,7 @@ NAS,National Academy of the Sciences,"Washington, DC",National,academic,Broad Cl
 ACUL,Arctic Centre University of Lapland,"Rovaniemi, Finland",International,academic,Broad Climate,66.503900,25.729400,http://www.arcticcentre.org/EN/About,
 TDW,Three Degrees Warmer,"Anchorage, AK",State,ForProfit,Broad Climate,61.218056,-149.900278,,
 USFS,U.S. Forestry Service,"Washington, DC",National,Government,Broad Climate,38.907192,-77.036871,,
+test,test,test,International,Government,Broad Climate,61.535788,-149.993591,test,
 edgedef>node1 VARCHAR,node2 VARCHAR,type BOOLEAN,AffilType VARCHAR,RegulType VARCHAR
 350,GP,Undirected,ScienceData,Informal
 444S,AFC,Undirected,Funder,FormalMOU
@@ -925,3 +926,4 @@ AC,ICC,undirected,Multiple,FormalMOU
 AC,AAC,undirected,Multiple,FormalMOU
 AC,GCI,undirected,Multiple,FormalMOU
 AC,AIA,undirected,Multiple,FormalMOU
+test,test,undirected,ScienceData,Informal
