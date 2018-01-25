@@ -28,12 +28,12 @@ class FormForm(forms.ModelForm):
     Abr = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
-            'placeholder': 'Organization Name'
+            'placeholder': 'Abbreviation for Organization'
         }))
     Label = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
-            'placeholder': 'Label'
+            'placeholder': 'Name of Organization'
         }))
     Location = forms.CharField(widget=forms.TextInput(
         attrs={
@@ -53,7 +53,7 @@ class FormForm(forms.ModelForm):
     description = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
-            'placeholder': 'description'
+            'placeholder': 'Description'
         }))
 
     class Meta:
