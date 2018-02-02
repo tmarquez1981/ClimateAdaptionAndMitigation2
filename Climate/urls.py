@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name="/map.html")),
     url(r'^$', TemplateView.as_view(template_name="/scope.html")),
     url(r'^$', TemplateView.as_view(template_name="/type.html")),
+    url(r'^$', TemplateView.as_view(template_name="/test.html")),
     url(r'^ClimateAdaptationMitigation/', include('ClimateAdaptationMitigation.urls')),
 ]
 

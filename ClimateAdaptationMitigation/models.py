@@ -20,7 +20,7 @@ from django.core.urlresolvers import reverse
 
 ##models.Models allow to save data from class to database
 class Entity(models.Model):
-    Abr = models.CharField(max_length=20) ##VARCHAR(10)
+    Abr = models.CharField(max_length=40) ##VARCHAR(10)
     Label = models.CharField(max_length=40)
     Location = models.CharField(max_length=20)
     ScopeCleaned = models.CharField(max_length=20)

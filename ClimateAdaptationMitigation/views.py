@@ -1,3 +1,4 @@
+from __future__ import division
 from django.views.generic import TemplateView
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
@@ -18,8 +19,84 @@ import subprocess
 from ClimateAdaptationMitigation.forms import FormForm
 from ClimateAdaptationMitigation.edgeform import EdgeForm
 from .models import Entity, Edges
+import random
+from django.http import HttpResponse
+from django.db.models import Q
+
 
 # Create views here.
+
+# def search(request):
+#     template = 'test.html'
+#     data = Entity.objects.all();
+#
+#     query = request.GET.get('q')
+#
+#     results = Entity.objects.filter(Q(Abr__icontains=query))
+#
+#     args = {'results': results}
+#
+#     return render(request, self.template_name, args)
+
+
+class legendView(TemplateView):
+    template_name = 'test.html'
+
+    def get(self, request):
+
+        # Get all attributes of the "Entities" in the database
+        data = Entity.objects.all()
+        # Get the count of each filtered object by scope
+        totalEntities = Entity.objects.count()
+        totalInternational = Entity.objects.filter(ScopeCleaned__startswith='International').count()
+        totalLocal = Entity.objects.filter(ScopeCleaned__startswith='Local').count()
+        totalRegional = Entity.objects.filter(ScopeCleaned__startswith='Regional').count()
+        totalNational = Entity.objects.filter(ScopeCleaned__startswith='National').count()
+        totalState = Entity.objects.filter(ScopeCleaned__startswith='State').count()
+        totalNull1 = Entity.objects.filter(ScopeCleaned__startswith='Null').count()
+        # Get the count of each filtered object by type
+        totalGovernment = Entity.objects.filter(InstitutionalType__startswith='Government').count()
+        totalNGO = Entity.objects.filter(InstitutionalType__startswith='NGO').count()
+        totalTribal = Entity.objects.filter(InstitutionalType__startswith='Tribal').count()
+        totalForProfit = Entity.objects.filter(InstitutionalType__startswith='ForProfit').count()
+        totalAcademic = Entity.objects.filter(InstitutionalType__startswith='Academic').count()
+        totalNull2 = Entity.objects.filter(InstitutionalType__startswith='Null').count()
+
+        # Get percentages of each Organization scope
+        internationalPercent = str( round(((totalInternational / totalEntities) * 100),2) ) + '%'
+        localPercent = str( round(((totalLocal / totalEntities) * 100),2) ) + '%'
+        regionalPercent = str( round(((totalRegional / totalEntities) * 100),2) ) + '%'
+        nationalPercent = str( round(((totalNational / totalEntities) * 100),2) ) + '%'
+        statePercent = str( round(((totalState / totalEntities) * 100),2) ) + '%'
+        nullPercent1 = str( round(((totalNull1 / totalEntities) * 100),2) ) + '%'
+
+        # Get percentages of each Institution Type
+        governmentPercentage = str( round(((totalGovernment / totalEntities) * 100),2) ) + '%'
+        NGOPercentage = str( round(((totalNGO / totalEntities) * 100),2) ) + '%'
+        tribalPercentage = str( round(((totalTribal / totalEntities) * 100),2) ) + '%'
+        forProfitPercentage = str( round(((totalForProfit / totalEntities) * 100),2) ) + '%'
+        academicPercentage = str( round(((totalAcademic / totalEntities) * 100),2) ) + '%'
+        nullPercent2 = str( round(((totalNull2 / totalEntities) * 100),2) ) + '%'
+
+
+        context = {
+            'data': data,
+            'internationalPercent': internationalPercent,
+            'localPercent': localPercent,
+            'regionalPercent': regionalPercent,
+            'nationalPercent': nationalPercent,
+            'statePercent': statePercent,
+            'nullPercent1': nullPercent1,
+            
+            'governmentPercentage': governmentPercentage,
+            'NGOPercentage': NGOPercentage,
+            'tribalPercentage': tribalPercentage,
+            'forProfitPercentage': forProfitPercentage,
+            'academicPercentage': academicPercentage,
+            'nullPercent2': nullPercent2
+        }
+        return render(request, self.template_name, context)
+
 
 #view for the organization form
 class FormView(TemplateView):
@@ -110,7 +187,52 @@ class MapView(TemplateView):
             queryset = unescape({{queryset | safe | escapejs}});
             queryset = JSON.parse(queryset);
 
-            return TemplateResponse(request, '/static/templates/organizationmap.html', {})
+            return TemplateResponse(request, '/templates/organizationmap.html', {})
+            #return TemplateResponse(request, '/static/templates/organizationmap.html', {})
+
+#view for the Google maps api / using for test.html
+class MapView2(TemplateView):
+    template_name = 'test.html'
+
+    def get(self, request):
+        form = FormForm()
+        queryset = Entity.objects.all() #returns all the objects in the database
+        queryset = serializers.serialize('json', queryset)
+
+        args = {'form': form, 'queryset': queryset}
+        return render(request, self.template_name, args)
+
+    #to update/edit
+    def post_update(request, id=None):
+        instance = get_object_or_404(Entity, id=id)
+        form = FormForm(request.POST or None, instance=instance)
+        if form.is_valid():
+            post = form.save(commit=False)#do something with the post object
+            #stuff to do with post object here...
+            post.save()
+            messages.success(request, "Successfully Updated")
+            # for security
+            #text = form.clean_data('post') #field name
+            form = FormForm()
+        else:
+            messages.error(request, "Not Successfully Updated")
+
+        def post_delete(request, id=None):
+            instance = get_object_or_404(Entity, id=id)
+            instance.delete()
+            messages.success(request, "Successfully Deleted")
+
+            return redirect(self.home_template_name)
+
+        def list(request):
+            queryset = Entity.objects.all()
+
+            queryset = json.dumps(list(queryset), cls=DjangoJSONEncoder)
+            queryset = unescape({{queryset | safe | escapejs}});
+            queryset = JSON.parse(queryset);
+
+            return TemplateResponse(request, '/static/templates/test.html', {})
+
 
 #view for the edge form
 class EdgeView(TemplateView):
@@ -222,6 +344,9 @@ class EdgeView(TemplateView):
         subprocess.call(['java', '-jar', currenDir + '/gephi-0.9.2.jar'])
 
 #TODO:view for the contact form
+
+
+
 """
 class ContactForm(TemplateView):
 

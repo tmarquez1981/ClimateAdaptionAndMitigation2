@@ -88,10 +88,47 @@
         </nav>
   <!--navbar end-->
 <h2 align="center">Social Network Analysis Visualization by Institution Project Scope</h2>
+
+
+<script>
+// grab data in json format
+var queryset = "{{ queryset|escapejs }}";
+//var data = JSON.parse(queryset);
+// parse the data
+var data = JSON.parse(queryset);
+
+//create an array of essentially model objects
+var dataFields = [];
+for (i = 0; i < data.length; i++){
+  dataFields.push(data[i].fields);
+}
+//parse the data into the entity dictionary
+var entities = {};
+for(i = 0; i < dataFields.length; i++){
+  entities[i] = {
+                Name: dataFields[i].Label,
+                Lat: dataFields[i].Lat,
+                Long: dataFields[i].Lng,
+                Location: dataFields[i].Location,
+                Scope: dataFields[i].ScopeCleaned,
+                Type: dataFields[i].InstitutionalType,
+                Issue: dataFields[i].IssueFocus,
+                Source: dataFields[i].source,
+                Desc: dataFields[i].description
+              };
+}
+</script>
+
 <h1>
   &nbsp;
-  &nbsp;
 </h1>
+
+<div class="container" align="center">
+    <p> International={{internationalPercent}}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Local={{localPercent}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Regional={{regionalPercent}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; National={{nationalPercent}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; State={{statePercent}} &nbsp; &nbsp; &nbsp; &nbsp; Null={{nullPercent1}} </p>
+</div>
+
+
+</script>
 
   <div id="container">
 
@@ -108,7 +145,7 @@
   <div id="footer">
   <footer class="bg-faded text-center py-5">
     <div class="container">
-      <p class="m-0">Copyright &copy; Your Website 2017</p>
+      <p class="m-0">Copyright &copy; Climate Adaptation and Mitigation Project</p>
     </div>
   </footer>
 </body>

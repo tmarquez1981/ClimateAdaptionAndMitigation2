@@ -19,13 +19,13 @@ class EdgeForm(forms.ModelForm):
     source = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
-            'placeholder': 'name of your organization'
+            'placeholder': 'Abbreviation of your organization'
         }))
 
     target = forms.CharField(widget=forms.TextInput(
         attrs={
             'class': 'form-control',
-            'placeholder': 'name of the organization you are connected to'
+            'placeholder': 'Abbreviation of the organization you are connected to'
         }))
 
     types = forms.CharField(required=False)
