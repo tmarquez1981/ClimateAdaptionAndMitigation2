@@ -9,6 +9,23 @@
   <script src='{% static "js/bootstrap.js" %}'> </script>
   <script src='{% static "files/sigma.min.js" %}'> </script>
   <script src='{% static "files/sigma.parsers.gexf.min.js" %}'> </script>
+  <script src='{% static "js/oms.min.js" %}'> </script>
+
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <style>
+      html, body { height: auto; }
+      p { margin: 0em 0; }
+      #map_element { position: absolute; bottom: 0; left: 0; right: 0; top: 0; }
+    </style>
+
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -89,121 +106,258 @@
   <!--navbar end-->
 <h2 align="center">Social Network Analysis Visualization by Institution Project Scope</h2>
 
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEfR1XdwfyBnBm-KcKvwKLudyU0P1I830&callback=initMap&libraries=places">
+    </script>
 
-<script>
-// grab data in json format
-var queryset = "{{ queryset|escapejs }}";
-//var data = JSON.parse(queryset);
-// parse the data
-var data = JSON.parse(queryset);
-
-//create an array of essentially model objects
-var dataFields = [];
-for (i = 0; i < data.length; i++){
-  dataFields.push(data[i].fields);
-}
-//parse the data into the entity dictionary
-var entities = {};
-for(i = 0; i < dataFields.length; i++){
-  entities[i] = {
-                Name: dataFields[i].Label,
-                Lat: dataFields[i].Lat,
-                Long: dataFields[i].Lng,
-                Location: dataFields[i].Location,
-                Scope: dataFields[i].ScopeCleaned,
-                Type: dataFields[i].InstitutionalType,
-                Issue: dataFields[i].IssueFocus,
-                Source: dataFields[i].source,
-                Desc: dataFields[i].description
-              };
-}
-</script>
-
-<h1>
-  &nbsp;
-</h1>
-
-<div class="container" align="center">
-    <p> International={{internationalPercent}}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Local={{localPercent}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Regional={{regionalPercent}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; National={{nationalPercent}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; State={{statePercent}} &nbsp; &nbsp; &nbsp; &nbsp; Null={{nullPercent}} </p>
-</div>
-
-<script>
-// grab data in json format
-var queryset = "{{ queryset|escapejs }}";
-//var data = JSON.parse(queryset);
-// parse the data
-var data = JSON.parse(queryset);
-
-//create an array of essentially model objects
-var dataFields = [];
-for (i = 0; i < data.length; i++){
-  dataFields.push(data[i].fields);
-}
-//parse the data into the entity dictionary
-var entities = {};
-for(i = 0; i < dataFields.length; i++){
-  entities[i] = {
-                Name: dataFields[i].Label,
-                Lat: dataFields[i].Lat,
-                Long: dataFields[i].Lng,
-                Location: dataFields[i].Location,
-                Scope: dataFields[i].ScopeCleaned,
-                Type: dataFields[i].InstitutionalType,
-                Issue: dataFields[i].IssueFocus,
-                Source: dataFields[i].source,
-                Desc: dataFields[i].description
-              };
-}
-//var fields = entities;
-//console.log(fields);
+    <script async defer src="/static/js/oms.min.js?spiderfier_callback=initMap"></script>
 
 
-// get the size of the entity dictionary
-var entSize = Object.keys(entities).length;
 
 
-// get the content of the entity object
-function getContent(entity){
-  var contentString = "";
-  var label = entity.Name;
-  var location = entity.Location;
-  var source = entity.Source;
-  var desc = entity.Desc;
-  if(desc == ""){
-    desc = "Information needed."
+
+<!--<p id="queryset" value={{ queryset|safe|escape|striptags }}</p>-->
+  <div id="map"> </div>
+  <div id="map_element"></div>
+
+<!---
+
+  <script>
+  function initMap() {
+    // grab data in json format
+    var queryset = "{{ queryset|escapejs }}";
+    //var data = JSON.parse(queryset);
+    // parse the data
+    var data = JSON.parse(queryset);
+
+    //create an array of essentially model objects
+    var dataFields = [];
+    for (i = 0; i < data.length; i++){
+      dataFields.push(data[i].fields);
+    }
+    //parse the data into the entity dictionary
+    var entities = {};
+    for(i = 0; i < dataFields.length; i++){
+      entities[i] = {
+                    Name: dataFields[i].Label,
+                    Lat: dataFields[i].Lat,
+                    Long: dataFields[i].Lng,
+                    Location: dataFields[i].Location,
+                    Scope: dataFields[i].ScopeCleaned,
+                    Type: dataFields[i].InstitutionalType,
+                    Issue: dataFields[i].IssueFocus,
+                    Source: dataFields[i].source,
+                    Desc: dataFields[i].description
+                  };
+    }
+    //var fields = entities;
+    //console.log(fields);
+
+    //where the map is centered
+    var position = {lat: 61.2181, lng: -149.9003};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: position
+    });
+    var searchBox = new google.maps.places.SearchBox(document.getElementById('map'));
+
+
+    var oms = new OverlappingMarkerSpiderfier(map, {
+      markersWontMove: true,   // we promise not to move any markers, allowing optimizations
+      markersWontHide: true,   // we promise not to change visibility of any markers, allowing optimizations
+      basicFormatEvents: true  // allow the library to skip calculating advanced formatting information
+    });
+
+    //array of markers
+    var markers = [];
+    /*
+    var markers = [
+      {
+        coords:{lat:61.2181,lng:-149.9003},
+        iconImage:'',
+        content:'<h3>Some content here</h3>'
+      }
+    ];
+    */
+    // get the size of the entity dictionary
+    var entSize = Object.keys(entities).length;
+
+    // add entites to markers
+    for(i = 0; i < entSize; i++){
+      //get the lat in a number value
+      var lat = Number(entities[i].Lat);
+      if(lat == null){
+        lat = 0;
+      }
+
+      //get the long in a number value
+      var long = Number(entities[i].Long);
+      if(long == null){
+        long = 0;
+      }
+
+      //get the entity name
+      var contentInfo = getContent(entities[i]);
+      var marker = getMarker(entities[i]);
+      markers.push(
+      {
+        coords:{lat:lat,lng:long},
+        icon: marker,
+        content:contentInfo
+      });
+
+    }
+
+    //loop through markers and add them to the map
+    for(var i = 0; i < markers.length; i++){
+      oms.addMarker(markers[i]);
+    }
+
+    // get the content of the entity object
+    function getContent(entity){
+      var contentString = "";
+      var label = entity.Name;
+      var location = entity.Location;
+      var source = entity.Source;
+      var desc = entity.Desc;
+      if(desc == ""){
+        desc = "Information needed."
+      }
+
+      //referenced from https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
+      contentString = '<div id="content">'+
+        '<div id="siteNotice">'+
+        '</div>'+
+        '<h1 id="firstHeading" class="firstHeading">' + label + '</h1>'+
+        '<div id="bodyContent">'+
+        '<p><b>' + label + '</b>, located at ' + location + ', ' + desc + '</p>'+
+        '<p>Attribution: ' + label + ', <a href=' + source + '</a> '+ source +
+        '</p>'+
+        '</div>'+
+        '</div>';
+
+      return contentString;
+    }
+
+    // add marker function
+    // for adding multiple markers
+    // anch, ak lat/lng: lat:61.2181, lng:-149.9003
+    function addMarker(props){
+      var marker = new google.maps.Marker({
+        position:props.coords,
+        map:map,
+        icon: {
+          url: props.icon,
+          // This marker is 25 pixels wide by 25 pixels high.
+          scaledSize: new google.maps.Size(25, 25),
+        }
+        //icon: getMarker(props.)
+      });
+
+      //check for custom icon
+
+      if(props.icon){
+        //set icon image
+        marker.setIcon(marker.icon);
+      }
+
+      //check for content
+      if(props.content){
+        var infoWindow = new google.maps.InfoWindow({
+          content: props.content
+        });
+
+        //event listener
+        marker.addListener('spider_click', function(){
+          infoWindow.open(map, marker);
+        });
+      }
+    }
+
+    //get the appropriate icon for the marker
+    //('Government', 'Government'), ('NGO', 'NGO'), ('Tribal', 'Tribal'),
+        //('ForProfit', 'ForProfit'), ('Academic', 'Academic'), ('Null', 'Null')
+    function getMarker(entity){
+      var icon = "";
+      var path = "http://127.0.0.1:8000/";
+      if(entity.Type === "Government"){
+        icon = '/static/files/img/Official_3.png';
+       }
+      else if(entity.Type === "NGO"){
+        icon = '/static/files/img/Official_2.png';
+      }
+      else if(entity.Type === "Tribal"){
+        icon = '/static/files/img/Official_1.png';
+      }
+      else if(entity.Type === "ForProfit"){
+        icon = '/static/files/img/Official_3.png';
+      }
+      else if(entity.Type === "academic"){
+        icon = '/static/files/img/School_1.png';
+      }
+      else{
+        icon = '/static/files/img/Info_4.png';
+      }
+      return icon;
+    }
   }
 
-  //referenced from https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
-  contentString = '<div id="content">'+
-    '<div id="siteNotice">'+
-    '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">' + label + '</h1>'+
-    '<div id="bodyContent">'+
-    '<p><b>' + label + '</b>, located at ' + location + ', ' + desc + '</p>'+
-    '<p>Attribution: ' + label + ', <a href=' + source + '</a> '+ source +
-    '</p>'+
-    '</div>'+
-    '</div>';
-
-  return contentString;
-}
+</script>  --->
 
 
+ <script>
+
+var mapLibsReady = 0;
+
+      function initMap() {
+        if (++ mapLibsReady < 2) return;
+        var mapElement = document.getElementById('map_element');
+        var map = new google.maps.Map(mapElement, { center: { lat: 52, lng: -1 }, zoom: 7 });
+        var iw = new google.maps.InfoWindow();
+        var oms = new OverlappingMarkerSpiderfier(map, {
+          markersWontMove: true,   // we promise not to move any markers, allowing optimizations
+          markersWontHide: true,   // we promise not to change visibility of any markers, allowing optimizations
+          basicFormatEvents: true  // allow the library to skip calculating advanced formatting information
+        });
+
+        for (var i = 0, len = window.mapData.length; i < len; i ++) {
+          (function() {  // make a closure over the marker and marker data
+            var markerData = window.mapData[i];  // e.g. { lat: 50.123, lng: 0.123, text: 'XYZ' }
+            var marker = new google.maps.Marker({ position: markerData });  // markerData works here as a LatLngLiteral
+            google.maps.event.addListener(marker, 'spider_click', function(e) {  // 'spider_click', not plain 'click'
+              iw.setContent(markerData.text);
+              iw.open(map, marker);
+            });
+            oms.addMarker(marker);  // adds the marker to the spiderfier _and_ the map
+          })();
+        }
+        window.map = map;  // for debugging/exploratory use in console
+        window.oms = oms;  // ditto
+      }
+      // randomize some overlapping map data -- more normally we'd load some JSON data instead
+      var baseJitter = 2.5;
+      var clusterJitterMax = 0.1;
+      var rnd = Math.random;
+      var data = [];
+      var clusterSizes = [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 5, 6, 7, 8, 9, 12, 18, 24];
+      for (var i = 0; i < clusterSizes.length; i++) {
+        var baseLon = -1 - baseJitter / 2 + rnd() * baseJitter;
+        var baseLat = 52 - baseJitter / 2 + rnd() * baseJitter;
+        var clusterJitter = clusterJitterMax * rnd();
+        for (var j = 0; j < clusterSizes[i]; j ++) data.push({
+          lng:  baseLon - clusterJitter + rnd() * clusterJitter,
+          lat:  baseLat - clusterJitter + rnd() * clusterJitter,
+          text: Math.round(rnd() * 100) + '% happy'
+        });
+      }
+      window.mapData = data;
 
 
-</script>
 
-  <div id="container">
+  </script>
 
-      <div id="viz">
 
-        <script src="/static/js/scope.js"></script>
-      </div>
-    </div>
 
-  <div id="row">
-
-  </div>
 
   <div id="footer">
   <footer class="bg-faded text-center py-5">

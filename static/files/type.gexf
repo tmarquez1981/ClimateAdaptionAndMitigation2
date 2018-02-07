@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2018-02-02">
+  <meta lastmodifieddate="2018-02-06">
     <creator>Gephi 0.9</creator>
     <description></description>
   </meta>
@@ -49,8 +49,8 @@
           <attvalue for="betweenesscentrality" value="119.02435897435898"></attvalue>
         </attvalues>
         <viz:size value="3.1160433"></viz:size>
-        <viz:position x="-28.53729" y="-220.58452"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="37.808453" y="46.471687"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="444S" label="444S Foundation">
         <attvalues>
@@ -67,8 +67,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-204.5717" y="-109.83449"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="10.739767" y="246.4897"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AAC" label="Arctic Athabaskan Council">
         <attvalues>
@@ -85,8 +85,8 @@
           <attvalue for="betweenesscentrality" value="72.5"></attvalue>
         </attvalues>
         <viz:size value="3.0706842"></viz:size>
-        <viz:position x="-160.97368" y="205.70581"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-299.0588" y="-96.92222"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="AAE" label="Arctic Adaptation Exchange">
         <attvalues>
@@ -103,8 +103,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="23.794296" y="-258.33185"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-224.87033" y="133.47633"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="AB" label="Arctic Business">
         <attvalues>
@@ -121,8 +121,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-375.19006" y="-38.521954"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-174.75569" y="-265.9776"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="AEWC" label="Alaska Eskimo Whaling Commission">
         <attvalues>
@@ -139,8 +139,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-45.974903" y="-100.344055"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-115.41457" y="280.59546"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="AC" label="Arctic Council">
         <attvalues>
@@ -157,8 +157,8 @@
           <attvalue for="betweenesscentrality" value="5002.652813852814"></attvalue>
         </attvalues>
         <viz:size value="7.877362"></viz:size>
-        <viz:position x="-9.625081" y="247.34874"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-224.93811" y="-48.37608"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ACAN" label="Alaska Climate Action Network">
         <attvalues>
@@ -175,8 +175,8 @@
           <attvalue for="betweenesscentrality" value="31.449999999999978"></attvalue>
         </attvalues>
         <viz:size value="3.0306623"></viz:size>
-        <viz:position x="-13.413956" y="114.20423"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-195.58588" y="77.38653"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ACC" label="Alaska Chamber of Commerce">
         <attvalues>
@@ -193,8 +193,8 @@
           <attvalue for="betweenesscentrality" value="903.0"></attvalue>
         </attvalues>
         <viz:size value="3.8803844"></viz:size>
-        <viz:position x="199.19078" y="13.006966"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-177.28577" y="-183.38159"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ACCAP" label="Alaska Center for Climate Assessment and Policy">
         <attvalues>
@@ -211,8 +211,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="102.12826" y="164.09158"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-326.49866" y="95.195404"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ACCER" label="Alaska Climate Change Executive Roundtable">
         <attvalues>
@@ -229,8 +229,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-14.984977" y="165.12155"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="101.96775" y="312.6251"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ACE" label="Alaska Center for the Environment">
         <attvalues>
@@ -247,8 +247,8 @@
           <attvalue for="betweenesscentrality" value="9.251282051282052"></attvalue>
         </attvalues>
         <viz:size value="3.0090196"></viz:size>
-        <viz:position x="-173.62231" y="-80.88883"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-132.95013" y="-247.98352"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ACF" label="Alaska Conservation Foundation">
         <attvalues>
@@ -265,8 +265,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-232.49759" y="-171.39401"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="255.7955" y="-8.818756"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ACRC" label="Alaska Coastal Rainforest Center">
         <attvalues>
@@ -283,8 +283,8 @@
           <attvalue for="betweenesscentrality" value="14.0"></attvalue>
         </attvalues>
         <viz:size value="3.0136495"></viz:size>
-        <viz:position x="60.61476" y="-20.321339"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="318.27502" y="-42.047363"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ACSC" label="Alaska Climate Science Center">
         <attvalues>
@@ -301,8 +301,8 @@
           <attvalue for="betweenesscentrality" value="1599.3309523809546"></attvalue>
         </attvalues>
         <viz:size value="4.5592756"></viz:size>
-        <viz:position x="43.556217" y="-43.90342"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-73.02438" y="163.76797"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ACUNS" label="Association of Canadian Universities for Northern Studies">
         <attvalues>
@@ -319,8 +319,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="307.79202" y="274.70627"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-30.884119" y="-57.724144"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ADEC" label="Alaska Department of Environmental Conservation">
         <attvalues>
@@ -337,8 +337,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-231.10924" y="-199.44687"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-101.10332" y="392.16476"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ADFG" label="Alaska Department of Fish and Game">
         <attvalues>
@@ -355,8 +355,8 @@
           <attvalue for="betweenesscentrality" value="292.0"></attvalue>
         </attvalues>
         <viz:size value="3.2846868"></viz:size>
-        <viz:position x="230.0496" y="-169.20563"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="68.96104" y="-14.613784"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ADHSS" label="Alaska Department of Health &amp; Social Services">
         <attvalues>
@@ -373,8 +373,8 @@
           <attvalue for="betweenesscentrality" value="1019.9999999999998"></attvalue>
         </attvalues>
         <viz:size value="3.9944541"></viz:size>
-        <viz:position x="183.51349" y="-308.7085"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-260.9288" y="33.452946"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ADNR" label="Alaska Department of Natural Resources">
         <attvalues>
@@ -391,8 +391,8 @@
           <attvalue for="betweenesscentrality" value="190.6"></attvalue>
         </attvalues>
         <viz:size value="3.1858265"></viz:size>
-        <viz:position x="86.81716" y="72.96732"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-251.58557" y="129.65976"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="AFC" label="Arctic Funders Collaborative">
         <attvalues>
@@ -409,8 +409,8 @@
           <attvalue for="betweenesscentrality" value="520.0"></attvalue>
         </attvalues>
         <viz:size value="3.5069766"></viz:size>
-        <viz:position x="-156.6072" y="-43.60044"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="153.30225" y="210.72049"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AFN" label="Alaska Federation of Natives">
         <attvalues>
@@ -427,8 +427,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-293.22003" y="-154.1721"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="81.77181" y="203.36583"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="AH" label="ArcticHub">
         <attvalues>
@@ -445,8 +445,8 @@
           <attvalue for="betweenesscentrality" value="14.249999999999998"></attvalue>
         </attvalues>
         <viz:size value="3.0138931"></viz:size>
-        <viz:position x="-102.72329" y="-35.422886"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-176.73521" y="-76.31383"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AIA" label="Aleut International Association">
         <attvalues>
@@ -463,8 +463,8 @@
           <attvalue for="betweenesscentrality" value="406.0000000000001"></attvalue>
         </attvalues>
         <viz:size value="3.3958318"></viz:size>
-        <viz:position x="246.48392" y="216.0967"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-55.93331" y="-20.701696"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="AINA" label="Arctic Institute of North America">
         <attvalues>
@@ -481,8 +481,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="207.51074" y="2.8128247"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-11.908098" y="-278.0309"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ASLC" label="Alaska Sealife Center">
         <attvalues>
@@ -499,8 +499,8 @@
           <attvalue for="betweenesscentrality" value="608.6666666666665"></attvalue>
         </attvalues>
         <viz:size value="3.5934227"></viz:size>
-        <viz:position x="-193.49028" y="120.59825"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="186.13127" y="-1.9103665"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ALE" label="Aleut Corporation">
         <attvalues>
@@ -517,8 +517,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="373.39197" y="322.99124"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="16.573404" y="-216.5791"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="AMAP" label="Arctic Monitoring and Assessment Programme">
         <attvalues>
@@ -535,8 +535,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="184.09927" y="227.12184"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-334.49347" y="102.20197"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AMATII" label="Arctic Maritime and Aviation Transportation Infrastructure Initiative, Institute of the North">
         <attvalues>
@@ -553,8 +553,8 @@
           <attvalue for="betweenesscentrality" value="0.5"></attvalue>
         </attvalues>
         <viz:size value="3.0004876"></viz:size>
-        <viz:position x="-233.52711" y="95.42449"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-111.289215" y="-219.99118"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AMHT" label="Alaska Mental Health Trust">
         <attvalues>
@@ -571,8 +571,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="181.16211" y="-331.61343"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-78.121124" y="274.89633"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="AML" label="Alaska Municipal League">
         <attvalues>
@@ -589,8 +589,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="140.6148" y="139.15257"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-214.4508" y="186.19043"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="AN" label="Alternatives North">
         <attvalues>
@@ -607,8 +607,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-42.107685" y="252.05655"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="218.07372" y="216.43654"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ANC" label="Afognak Native Corporation">
         <attvalues>
@@ -625,8 +625,8 @@
           <attvalue for="betweenesscentrality" value="119.99999999999999"></attvalue>
         </attvalues>
         <viz:size value="3.1169946"></viz:size>
-        <viz:position x="310.4696" y="92.886765"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-350.6902" y="-226.40439"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="ANCom" label="Akiak Native Community">
         <attvalues>
@@ -643,8 +643,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-86.114494" y="-366.34784"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="113.338394" y="-191.74075"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="ANet" label="Arctic Net">
         <attvalues>
@@ -661,8 +661,8 @@
           <attvalue for="betweenesscentrality" value="302.2333333333333"></attvalue>
         </attvalues>
         <viz:size value="3.294664"></viz:size>
-        <viz:position x="-101.151" y="147.16734"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-193.77667" y="34.857845"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ANGO" label="Arctic NGO Forum">
         <attvalues>
@@ -679,8 +679,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-10.849587" y="-21.378431"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="146.17717" y="48.98699"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ANTHC" label="Alaska Native Tribal Health Consortium">
         <attvalues>
@@ -697,8 +697,8 @@
           <attvalue for="betweenesscentrality" value="54.003679653679654"></attvalue>
         </attvalues>
         <viz:size value="3.0526512"></viz:size>
-        <viz:position x="-119.4483" y="-101.39486"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="38.53082" y="182.49847"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="AOOS" label="Alaska Ocean Observing System">
         <attvalues>
@@ -715,8 +715,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-159.20718" y="237.99956"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="19.22251" y="192.26944"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Apache" label="Apache">
         <attvalues>
@@ -733,8 +733,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-113.18704" y="314.77823"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-167.49413" y="274.70544"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="APECS" label="Association of Polar Early Career Scientists">
         <attvalues>
@@ -751,8 +751,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="197.85222" y="264.46866"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-328.55545" y="44.26764"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="APIA" label="Aleutian Pribilof Island Association">
         <attvalues>
@@ -769,8 +769,8 @@
           <attvalue for="betweenesscentrality" value="73.49999999999999"></attvalue>
         </attvalues>
         <viz:size value="3.071659"></viz:size>
-        <viz:position x="181.29947" y="-217.6652"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-52.635426" y="283.0794"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="APS" label="American Polar Society">
         <attvalues>
@@ -787,8 +787,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-43.22983" y="342.40186"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="138.76045" y="-1.5935488"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ARC" label="Ahtna Regional Corporation">
         <attvalues>
@@ -805,8 +805,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="85.51008" y="85.62348"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-193.90125" y="-309.41977"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="PNWER" label="Arctic Caucus, Pacific Northwest Economic Region">
         <attvalues>
@@ -823,8 +823,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="168.44833" y="180.8225"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-191.01607" y="175.86746"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ArcIns" label="Arctic Institute">
         <attvalues>
@@ -841,8 +841,8 @@
           <attvalue for="betweenesscentrality" value="532.0"></attvalue>
         </attvalues>
         <viz:size value="3.5186763"></viz:size>
-        <viz:position x="-329.8312" y="-184.91835"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-202.85872" y="-132.32875"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="Arctic-HYDRA" label="Arctic-HYRDRA">
         <attvalues>
@@ -859,8 +859,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-74.94091" y="173.43633"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="72.14433" y="141.54483"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ARCUS" label="Arctic Research Consortium of the United States">
         <attvalues>
@@ -877,8 +877,8 @@
           <attvalue for="betweenesscentrality" value="414.76666666666665"></attvalue>
         </attvalues>
         <viz:size value="3.404379"></viz:size>
-        <viz:position x="-81.96534" y="-12.350187"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="86.40762" y="-157.36523"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ASNA" label="Arctic Slope Native Association">
         <attvalues>
@@ -895,8 +895,8 @@
           <attvalue for="betweenesscentrality" value="408.0"></attvalue>
         </attvalues>
         <viz:size value="3.3977816"></viz:size>
-        <viz:position x="-432.61932" y="21.321121"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-89.13337" y="26.597033"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="ASRC" label="Arctic Slope Regional Corporation">
         <attvalues>
@@ -913,8 +913,8 @@
           <attvalue for="betweenesscentrality" value="125.5"></attvalue>
         </attvalues>
         <viz:size value="3.122357"></viz:size>
-        <viz:position x="-461.1379" y="36.66033"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-89.76349" y="-61.99451"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="Aud" label="Audibon Society">
         <attvalues>
@@ -931,8 +931,8 @@
           <attvalue for="betweenesscentrality" value="7.0"></attvalue>
         </attvalues>
         <viz:size value="3.0068247"></viz:size>
-        <viz:position x="151.1139" y="488.2064"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-351.3682" y="208.34286"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AV" label="Allakaket Village">
         <attvalues>
@@ -949,8 +949,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-37.02211" y="-82.483215"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="142.36928" y="-157.92352"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="AVCP" label="Association of Village Council Presidents">
         <attvalues>
@@ -967,8 +967,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-71.06326" y="-242.63246"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-16.390219" y="82.5605"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="AWA" label="Alaska Wildlife Alliance">
         <attvalues>
@@ -985,8 +985,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="120.19827" y="215.62997"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-185.43242" y="-16.664463"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AWAC" label="Alaska World Affairs Council">
         <attvalues>
@@ -1003,8 +1003,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-343.52274" y="-196.04677"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-233.75224" y="-104.37502"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AWI" label="Alfred-Wegener Institute">
         <attvalues>
@@ -1021,8 +1021,8 @@
           <attvalue for="betweenesscentrality" value="129.0"></attvalue>
         </attvalues>
         <viz:size value="3.1257691"></viz:size>
-        <viz:position x="-225.40686" y="267.79642"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-274.3827" y="55.074722"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="AWL" label="Alaska Wilderness League">
         <attvalues>
@@ -1039,8 +1039,8 @@
           <attvalue for="betweenesscentrality" value="99.09273504273503"></attvalue>
         </attvalues>
         <viz:size value="3.096611"></viz:size>
-        <viz:position x="25.418451" y="-214.3972"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="70.31108" y="-174.14311"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="AYEA" label="Alaska Center, Alaska Youth for Environmental Action">
         <attvalues>
@@ -1057,8 +1057,8 @@
           <attvalue for="betweenesscentrality" value="148.0"></attvalue>
         </attvalues>
         <viz:size value="3.1442933"></viz:size>
-        <viz:position x="-219.00955" y="91.99081"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="238.04103" y="389.82135"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="BBNA" label="Bristol Bay Native Association">
         <attvalues>
@@ -1075,8 +1075,8 @@
           <attvalue for="betweenesscentrality" value="34.5"></attvalue>
         </attvalues>
         <viz:size value="3.0336359"></viz:size>
-        <viz:position x="165.81184" y="173.49695"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="235.84795" y="117.210594"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="BBNC" label="Bristol Bay Native Corporation">
         <attvalues>
@@ -1093,8 +1093,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="241.35" y="205.69214"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="266.2733" y="-64.86059"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="BF" label="Bellona Foundation">
         <attvalues>
@@ -1111,8 +1111,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-272.45688" y="63.325138"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="250.37642" y="-192.51134"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="BFor" label="Belmont Forum">
         <attvalues>
@@ -1129,8 +1129,8 @@
           <attvalue for="betweenesscentrality" value="120.99999999999999"></attvalue>
         </attvalues>
         <viz:size value="3.1179695"></viz:size>
-        <viz:position x="96.72935" y="-246.49135"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-98.557144" y="186.13936"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="BI" label="Brookings Institute">
         <attvalues>
@@ -1147,8 +1147,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-226.27094" y="165.92508"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-48.359535" y="-261.1931"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="BIA" label="Bureau of Indian Affairs">
         <attvalues>
@@ -1165,8 +1165,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="161.49744" y="196.45778"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-160.66394" y="116.81054"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="BIA/House" label="US Department of Interior's Bureau of Indian Affairs/ Housing Improvement Program">
         <attvalues>
@@ -1183,8 +1183,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="33.53353" y="389.70853"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="323.19556" y="116.2002"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="BLM" label="Bureau of Land Management">
         <attvalues>
@@ -1201,8 +1201,8 @@
           <attvalue for="betweenesscentrality" value="21.31904761904762"></attvalue>
         </attvalues>
         <viz:size value="3.020785"></viz:size>
-        <viz:position x="-150.63048" y="-221.31903"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-54.596893" y="327.24927"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="BO" label="Barents Observor">
         <attvalues>
@@ -1219,8 +1219,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-206.1876" y="-121.36842"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-254.58855" y="116.81524"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="BOEM" label="Bureau of Ocean Energy Management">
         <attvalues>
@@ -1237,8 +1237,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-180.75919" y="-104.398476"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-242.89653" y="330.74515"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="BP" label="BP">
         <attvalues>
@@ -1255,8 +1255,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="121.226814" y="-261.94418"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-219.34932" y="-4.273805"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="BSEG" label="Bering Sea Elders Group">
         <attvalues>
@@ -1273,8 +1273,8 @@
           <attvalue for="betweenesscentrality" value="59.260714285714286"></attvalue>
         </attvalues>
         <viz:size value="3.0577765"></viz:size>
-        <viz:position x="100.03245" y="-225.00813"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="10.385245" y="161.4707"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="BSFA" label="Bering Sea Fishermen's Association">
         <attvalues>
@@ -1291,8 +1291,8 @@
           <attvalue for="betweenesscentrality" value="121.0"></attvalue>
         </attvalues>
         <viz:size value="3.1179695"></viz:size>
-        <viz:position x="-5.9376454" y="329.5893"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="47.9936" y="-149.87456"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="BSMN" label="Bering Strait Messenger Network">
         <attvalues>
@@ -1309,8 +1309,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-224.32256" y="257.20026"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="201.1097" y="-127.68674"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="BSNC" label="Bering Straits Native Corporation">
         <attvalues>
@@ -1326,8 +1326,8 @@
           <attvalue for="betweenesscentrality" value="2.1666666666666665"></attvalue>
         </attvalues>
         <viz:size value="3.0021124"></viz:size>
-        <viz:position x="80.73413" y="-276.58395"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="299.89963" y="-95.426994"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="CAA" label="Clean Arctic Alliance">
         <attvalues>
@@ -1344,8 +1344,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-90.49446" y="209.12975"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-242.84143" y="-289.17908"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CAFF" label="Conservation of Arctic Flora and Fauna">
         <attvalues>
@@ -1362,8 +1362,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="395.05524" y="275.27118"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-327.26624" y="158.32805"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Cal" label="Calista">
         <attvalues>
@@ -1380,8 +1380,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-26.228764" y="-305.47775"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="44.920456" y="31.78427"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CAM" label="Campion Foundation">
         <attvalues>
@@ -1398,8 +1398,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-67.35914" y="151.276"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="119.929726" y="345.14655"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CAN" label="Climate Action Network">
         <attvalues>
@@ -1416,8 +1416,8 @@
           <attvalue for="betweenesscentrality" value="3774.1735736485725"></attvalue>
         </attvalues>
         <viz:size value="6.67965"></viz:size>
-        <viz:position x="4.4951515" y="-195.66356"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-2.5550992" y="-76.4312"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CAP" label="Center for American Progress">
         <attvalues>
@@ -1434,8 +1434,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-102.83756" y="32.434315"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="56.23356" y="-239.05426"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CATG" label="Council of Athabascan Tribal Governments">
         <attvalues>
@@ -1452,8 +1452,8 @@
           <attvalue for="betweenesscentrality" value="61.5"></attvalue>
         </attvalues>
         <viz:size value="3.0599597"></viz:size>
-        <viz:position x="-112.29194" y="-215.95256"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-82.50563" y="261.08826"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CBD" label="Center for Biological Diversity">
         <attvalues>
@@ -1470,8 +1470,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="207.13701" y="-170.394"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="32.18006" y="241.71931"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CBJ" label="City and Borough of Juneau">
         <attvalues>
@@ -1488,8 +1488,8 @@
           <attvalue for="betweenesscentrality" value="3.0"></attvalue>
         </attvalues>
         <viz:size value="3.002925"></viz:size>
-        <viz:position x="-37.67187" y="-119.95544"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="285.69586" y="-23.10525"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="CCTHITA" label="Central Council Tlingit and Haida Indians">
         <attvalues>
@@ -1506,8 +1506,8 @@
           <attvalue for="betweenesscentrality" value="18.806493506493503"></attvalue>
         </attvalues>
         <viz:size value="3.0183356"></viz:size>
-        <viz:position x="-217.88547" y="-250.06592"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="6.368237" y="340.34616"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CCU" label="Circumpolar Conservation Union">
         <attvalues>
@@ -1524,8 +1524,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="44.29215" y="64.94478"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="17.581553" y="-229.97354"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CEC" label="Commission for Environmental Cooperation">
         <attvalues>
@@ -1542,8 +1542,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="144.80167" y="-198.56879"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="354.5493" y="107.987175"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CEIP" label="Carnegie Endowment for International Peace">
         <attvalues>
@@ -1560,8 +1560,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-53.787296" y="-188.71725"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="397.7283" y="36.742836"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CERFACS" label="CERFACS">
         <attvalues>
@@ -1578,8 +1578,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="95.97655" y="-27.514198"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="222.04506" y="-204.79971"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="CHG" label="Chugachmiut">
         <attvalues>
@@ -1596,8 +1596,8 @@
           <attvalue for="betweenesscentrality" value="1.0"></attvalue>
         </attvalues>
         <viz:size value="3.000975"></viz:size>
-        <viz:position x="-17.214296" y="221.52454"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-224.96075" y="14.156689"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CHU" label="Chugach Alaska Corporation">
         <attvalues>
@@ -1614,8 +1614,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="101.748955" y="117.50213"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="123.15437" y="-400.49597"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CIFAR" label="Cooperative Institute for Alaska Research">
         <attvalues>
@@ -1632,8 +1632,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="178.18417" y="187.34212"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="173.37003" y="-160.55495"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="CIK" label="Cook InletKeeper">
         <attvalues>
@@ -1650,8 +1650,8 @@
           <attvalue for="betweenesscentrality" value="1373.3240065490063"></attvalue>
         </attvalues>
         <viz:size value="4.338929"></viz:size>
-        <viz:position x="39.66185" y="131.44025"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="230.834" y="-107.87652"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CIRI" label="Cook Inlet Regional Inc">
         <attvalues>
@@ -1668,8 +1668,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="7.804882" y="-323.12878"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="389.4697" y="-9.20901"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CITC" label="Cook Inlet Tribal Council">
         <attvalues>
@@ -1686,8 +1686,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-150.49759" y="-427.80432"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="400.7741" y="141.93602"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CLiC" label="Climate and Cyrosphere">
         <attvalues>
@@ -1704,8 +1704,8 @@
           <attvalue for="betweenesscentrality" value="146.29999999999998"></attvalue>
         </attvalues>
         <viz:size value="3.1426358"></viz:size>
-        <viz:position x="8.861474" y="208.13329"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-195.26929" y="92.010315"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CNNRO" label="Canadian Network of Northern Research Operators">
         <attvalues>
@@ -1722,8 +1722,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="351.9634" y="-336.90173"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="286.0204" y="-195.24811"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CNVil" label="Chevak Native Village">
         <attvalues>
@@ -1740,8 +1740,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="135.32883" y="76.95706"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="51.23929" y="-141.9213"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="Coca Cola" label="Coca Cola">
         <attvalues>
@@ -1758,8 +1758,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="26.342995" y="-323.83533"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-127.374214" y="127.76247"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="Commerce" label="Department of Commerce's Economic Development Adm/Economic Adjustment Program">
         <attvalues>
@@ -1776,8 +1776,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-27.087423" y="-250.69336"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="276.78995" y="180.27019"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="CP" label="ConocoPhilips">
         <attvalues>
@@ -1794,8 +1794,8 @@
           <attvalue for="betweenesscentrality" value="994.8333333333333"></attvalue>
         </attvalues>
         <viz:size value="3.9699178"></viz:size>
-        <viz:position x="154.53436" y="80.78728"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-75.8675" y="-212.65637"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="CPRPPS" label="Committee on Polar research of the Polish Academy of Sciences">
         <attvalues>
@@ -1812,8 +1812,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-293.6042" y="328.63065"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-274.0781" y="105.769905"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="CRNA" label="Copper River Native Association">
         <attvalues>
@@ -1830,8 +1830,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="146.30022" y="-210.06998"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="131.14903" y="248.34378"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="CSIS" label="Center for Strategic &amp; International Studies">
         <attvalues>
@@ -1848,8 +1848,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="312.50812" y="-194.05327"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="267.52414" y="-253.17906"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="CTC" label="Curyung Tribal Council">
         <attvalues>
@@ -1866,8 +1866,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="138.15405" y="283.5766"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="283.82196" y="138.0363"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="DC" label="Denali Commission">
         <attvalues>
@@ -1884,8 +1884,8 @@
           <attvalue for="betweenesscentrality" value="974.7416666666662"></attvalue>
         </attvalues>
         <viz:size value="3.9503293"></viz:size>
-        <viz:position x="-137.03403" y="-64.54457"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="21.482565" y="-154.30386"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="DCCED" label="Alaska Department of Commerce, Community and Economic Development">
         <attvalues>
@@ -1902,8 +1902,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-98.29901" y="-50.813313"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="11.707071" y="222.00862"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="DEC" label="Alaska Department of Environmental Conservation">
         <attvalues>
@@ -1920,8 +1920,8 @@
           <attvalue for="betweenesscentrality" value="193.375"></attvalue>
         </attvalues>
         <viz:size value="3.1885319"></viz:size>
-        <viz:position x="-25.797327" y="171.64919"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="178.97685" y="175.02382"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDHHS" label="U.S. Department of Health &amp; Human Services">
         <attvalues>
@@ -1938,8 +1938,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="190.12598" y="245.64487"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="195.05016" y="480.3149"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDHS" label="U.S. Department of Homeland Security">
         <attvalues>
@@ -1956,8 +1956,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="90.960045" y="-187.84328"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-467.93536" y="356.02036"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="AKDNR" label="Alaska Department of Natural Resources">
         <attvalues>
@@ -1974,8 +1974,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="283.4773" y="-11.059171"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="304.2586" y="-407.44293"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOC" label="U.S. Department of Commerce">
         <attvalues>
@@ -1992,8 +1992,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-61.76233" y="-232.2171"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="383.9492" y="-325.98737"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOD" label="U.S. Department of Defense">
         <attvalues>
@@ -2010,8 +2010,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="176.93527" y="-83.05038"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="355.07864" y="340.56625"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOE" label="U.S. Department of Energy">
         <attvalues>
@@ -2028,8 +2028,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-373.8056" y="55.998665"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-460.55185" y="251.02466"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOI" label="U.S. Department of the Interior">
         <attvalues>
@@ -2046,8 +2046,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="469.83145" y="-215.53285"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="226.84947" y="-255.25381"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOJ" label="U.S. Department of Justice">
         <attvalues>
@@ -2064,8 +2064,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="278.29047" y="-271.98044"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="16.320059" y="-173.86592"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOL" label="U.S. Department of Labor">
         <attvalues>
@@ -2082,8 +2082,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-52.669468" y="-403.2932"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-24.612196" y="-23.610884"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOS" label="U.S. Department of State">
         <attvalues>
@@ -2100,8 +2100,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-396.21088" y="-430.27682"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="141.50427" y="461.0074"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOT" label="U.S. Dep't of Transportation">
         <attvalues>
@@ -2118,8 +2118,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="339.0144" y="33.872166"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-341.21533" y="-120.61109"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="DOWL" label="DOWL">
         <attvalues>
@@ -2136,8 +2136,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="209.66109" y="-70.271866"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="139.5862" y="-40.52369"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="DOY" label="Doyon Ltd">
         <attvalues>
@@ -2154,8 +2154,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-200.55069" y="34.490723"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-152.7374" y="-144.10158"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="EDF" label="Environmental Defense Fund">
         <attvalues>
@@ -2172,8 +2172,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-142.28069" y="148.30109"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-266.6331" y="-18.223923"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="EJ" label="Earthjustice">
         <attvalues>
@@ -2190,8 +2190,8 @@
           <attvalue for="betweenesscentrality" value="1482.0274253524256"></attvalue>
         </attvalues>
         <viz:size value="4.44491"></viz:size>
-        <viz:position x="203.9188" y="96.73984"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="146.98332" y="-18.385387"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Environ CC Canada" label="Environment and Climate Change Canada">
         <attvalues>
@@ -2208,8 +2208,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="227.94728" y="-359.64914"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="374.10672" y="-86.91282"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USEPA" label="Environmental Protection Agency">
         <attvalues>
@@ -2226,8 +2226,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="223.6152" y="460.73557"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-57.97636" y="27.856651"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="EPSCOR" label="Experimental Program to Stimulate Competitive Research">
         <attvalues>
@@ -2244,8 +2244,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-70.41596" y="103.88417"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-192.2418" y="-259.5447"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="EV" label="Emmonak Village">
         <attvalues>
@@ -2262,8 +2262,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-32.97906" y="-361.24902"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="90.18196" y="-226.35466"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="EWC" label="Eskimo Walrus Commission">
         <attvalues>
@@ -2280,8 +2280,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-143.54126" y="-94.557785"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="223.50108" y="-261.78592"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Exx" label="Exxon">
         <attvalues>
@@ -2298,8 +2298,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-104.54282" y="196.60136"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="58.122177" y="-59.018837"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="FAA" label="Federal Aviation Administration">
         <attvalues>
@@ -2316,8 +2316,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="443.22525" y="-264.38934"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="56.006187" y="-387.80048"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="FE" label="Future Earth">
         <attvalues>
@@ -2334,8 +2334,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="125.61665" y="-81.84063"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-326.37674" y="-243.8854"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="SNAP" label="Scenarios Network and Alaska and Arctic Planning">
         <attvalues>
@@ -2352,8 +2352,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="173.08118" y="220.40276"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="-100.27151" y="-278.74896"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="FNB" label="Fairbanks Northstar Borough">
         <attvalues>
@@ -2370,8 +2370,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-125.63522" y="254.32637"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-145.89326" y="179.9146"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="FOE" label="Friends of the Earth">
         <attvalues>
@@ -2388,8 +2388,8 @@
           <attvalue for="betweenesscentrality" value="92.11428571428571"></attvalue>
         </attvalues>
         <viz:size value="3.0898073"></viz:size>
-        <viz:position x="42.403595" y="-242.99684"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="23.793966" y="33.952198"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="GCI" label="Gwich'in Council International">
         <attvalues>
@@ -2406,8 +2406,8 @@
           <attvalue for="betweenesscentrality" value="262.2333333333334"></attvalue>
         </attvalues>
         <viz:size value="3.2556658"></viz:size>
-        <viz:position x="-200.39786" y="178.94128"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-283.7179" y="-84.26166"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="GCOS" label="Global Climate Observing System">
         <attvalues>
@@ -2424,8 +2424,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="165.69833" y="-108.47117"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="35.086456" y="-139.1598"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="GeoIns" label="Geophysical Institute, University of Alaska Fairbanks">
         <attvalues>
@@ -2442,8 +2442,8 @@
           <attvalue for="betweenesscentrality" value="129.2"></attvalue>
         </attvalues>
         <viz:size value="3.1259642"></viz:size>
-        <viz:position x="227.14655" y="32.992474"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-144.19788" y="-99.513535"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="GP" label="Greenpeace">
         <attvalues>
@@ -2460,8 +2460,8 @@
           <attvalue for="betweenesscentrality" value="70.62051282051283"></attvalue>
         </attvalues>
         <viz:size value="3.068852"></viz:size>
-        <viz:position x="-72.8871" y="-282.2012"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="50.049736" y="91.69769"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="H&amp;K" label="Holland &amp; Knight">
         <attvalues>
@@ -2478,8 +2478,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="84.018105" y="287.19858"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="264.52954" y="-263.8738"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="HNC" label="High North Center">
         <attvalues>
@@ -2496,8 +2496,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-268.27353" y="-269.60922"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-320.50513" y="176.99179"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="Homer" label="City of Homer">
         <attvalues>
@@ -2514,8 +2514,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-118.539246" y="-380.6404"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-184.15417" y="173.83122"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="HUD/Blk Grt" label="Department of Housing and Urban Development, Community Block Grant">
         <attvalues>
@@ -2532,8 +2532,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-386.88144" y="210.37794"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="426.4701" y="105.11602"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="HUD/Imminent" label="HUD/Imminent Threats Grants Program">
         <attvalues>
@@ -2550,8 +2550,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="455.9673" y="-300.5669"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="77.44409" y="-491.7261"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="HUD/Native House" label="HUD/Native American Housing Assistance Self-Determination Act of 1996">
         <attvalues>
@@ -2568,8 +2568,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="195.4169" y="-109.458916"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="416.61063" y="344.89664"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="HUV" label="Hughes Village">
         <attvalues>
@@ -2586,8 +2586,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-314.99802" y="-67.07053"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-249.91187" y="-25.332428"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="HV" label="Huslia Village">
         <attvalues>
@@ -2604,8 +2604,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-190.83188" y="102.15854"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-277.78433" y="-23.430553"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="IAB" label="Institute of Arctic Biology, University of Alaska Fairbanks">
         <attvalues>
@@ -2622,8 +2622,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="69.150444" y="135.76018"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-57.47915" y="289.3999"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="IACT" label="Inter-Act">
         <attvalues>
@@ -2640,8 +2640,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-146.30461" y="56.127842"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-104.8845" y="-350.96912"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="IARC" label="International Arctic Research Center, University of Alaska Fairbanks">
         <attvalues>
@@ -2658,8 +2658,8 @@
           <attvalue for="betweenesscentrality" value="43.4"></attvalue>
         </attvalues>
         <viz:size value="3.042313"></viz:size>
-        <viz:position x="210.72986" y="-43.65351"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-203.24756" y="48.57593"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="IARPC" label="Interagency Arctic Research Policy Committee">
         <attvalues>
@@ -2676,8 +2676,8 @@
           <attvalue for="betweenesscentrality" value="51.70389610389611"></attvalue>
         </attvalues>
         <viz:size value="3.050409"></viz:size>
-        <viz:position x="79.4969" y="110.57309"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-60.241768" y="-166.1852"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="ICAS" label="Inupiat Community of the Arctic Slope">
         <attvalues>
@@ -2694,8 +2694,8 @@
           <attvalue for="betweenesscentrality" value="257.91666666666674"></attvalue>
         </attvalues>
         <viz:size value="3.2514572"></viz:size>
-        <viz:position x="-403.6232" y="35.91307"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-16.128984" y="45.539482"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="ICC" label="Inuit Circumpolar Council">
         <attvalues>
@@ -2712,8 +2712,8 @@
           <attvalue for="betweenesscentrality" value="7179.818048618049"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-140.89285" y="18.059654"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-101.94284" y="90.05899"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="ICCI" label="International Cryosphere Climate Initiative">
         <attvalues>
@@ -2730,8 +2730,8 @@
           <attvalue for="betweenesscentrality" value="604.4690476190474"></attvalue>
         </attvalues>
         <viz:size value="3.5893302"></viz:size>
-        <viz:position x="-187.31772" y="190.05522"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-264.93393" y="122.779175"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ICHS" label="Institute for Circumpolar Health Studies">
         <attvalues>
@@ -2748,8 +2748,8 @@
           <attvalue for="betweenesscentrality" value="2143.4229742479743"></attvalue>
         </attvalues>
         <viz:size value="5.089741"></viz:size>
-        <viz:position x="105.037605" y="-119.32903"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-95.07607" y="52.70017"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="ICLEI" label="Local Governments for Sustainability">
         <attvalues>
@@ -2766,8 +2766,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="50.909233" y="-235.13828"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="25.430286" y="-108.80791"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="INORTH" label="Institute of the North">
         <attvalues>
@@ -2784,8 +2784,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="72.023506" y="397.231"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-156.79184" y="195.47186"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="INE-UAF" label="Institute of Northern Engineering, University of Alaska Fairbanks">
         <attvalues>
@@ -2802,8 +2802,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="267.37115" y="-24.199533"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="25.028343" y="-282.30966"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="IPCC" label="Intergovernmental Panel on Climate Change">
         <attvalues>
@@ -2820,8 +2820,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-296.4548" y="-114.780136"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="84.7875" y="261.83093"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="IPCoMM" label="Indigenous People's Council for Marine Mammals">
         <attvalues>
@@ -2838,8 +2838,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="10.140507" y="-122.85989"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-41.34937" y="253.67879"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="IPF" label="International Polar Foundation">
         <attvalues>
@@ -2856,8 +2856,8 @@
           <attvalue for="betweenesscentrality" value="10.0"></attvalue>
         </attvalues>
         <viz:size value="3.0097497"></viz:size>
-        <viz:position x="-129.40106" y="32.77189"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-82.79123" y="220.48529"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="IUCN" label="International Union for Conservation of Nature">
         <attvalues>
@@ -2874,8 +2874,8 @@
           <attvalue for="betweenesscentrality" value="409.07023809523815"></attvalue>
         </attvalues>
         <viz:size value="3.3988252"></viz:size>
-        <viz:position x="-177.55673" y="-253.85529"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-61.38664" y="22.567408"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="IWPK" label="Inside Water Passage Keeper">
         <attvalues>
@@ -2892,8 +2892,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="272.67578" y="80.947334"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="60.633198" y="-141.95535"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="JEDC" label="Juneau Economic Development Center">
         <attvalues>
@@ -2910,8 +2910,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="18.190586" y="204.3623"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="323.58105" y="232.03922"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="KANA" label="Kodiak Area Native Association">
         <attvalues>
@@ -2928,8 +2928,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-150.60301" y="-116.43133"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-102.736916" y="-122.42291"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="KMI" label="Korean Maritime Institute">
         <attvalues>
@@ -2946,8 +2946,8 @@
           <attvalue for="betweenesscentrality" value="640.0"></attvalue>
         </attvalues>
         <viz:size value="3.6239712"></viz:size>
-        <viz:position x="-334.2686" y="-73.26432"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-76.80162" y="-289.9776"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="KNV" label="Koyukuk Native Village">
         <attvalues>
@@ -2964,8 +2964,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="156.59103" y="-114.625626"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="150.74748" y="198.68271"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="Kon" label="Koniag Incorporated">
         <attvalues>
@@ -2982,8 +2982,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="226.61223" y="183.67291"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-430.4564" y="-251.26033"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="KW" label="Kawerak">
         <attvalues>
@@ -3000,8 +3000,8 @@
           <attvalue for="betweenesscentrality" value="3119.70682928183"></attvalue>
         </attvalues>
         <viz:size value="6.041574"></viz:size>
-        <viz:position x="5.0828753" y="-250.16946"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="191.46983" y="24.084906"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="LCCN" label="Landscape Conservation Cooperative Network">
         <attvalues>
@@ -3018,8 +3018,8 @@
           <attvalue for="betweenesscentrality" value="5918.685603285602"></attvalue>
         </attvalues>
         <viz:size value="8.7704525"></viz:size>
-        <viz:position x="-7.9419003" y="-64.179146"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-128.33801" y="195.50844"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="LVil" label="Lime Village">
         <attvalues>
@@ -3036,8 +3036,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-154.87328" y="-303.3611"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-274.8983" y="86.19085"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="MCA" label="Marine Conservation Alliance">
         <attvalues>
@@ -3054,8 +3054,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-186.39548" y="413.7729"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-134.98616" y="82.08976"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="McNV" label="McGrath Native Village">
         <attvalues>
@@ -3072,8 +3072,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-353.6583" y="-31.397032"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-103.5233" y="-96.36058"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="MOA" label="Municipality of Anchorage">
         <attvalues>
@@ -3090,8 +3090,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-131.69402" y="163.76614"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="30.014818" y="79.99467"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="MOC" label="Marathon Oil Co.">
         <attvalues>
@@ -3108,8 +3108,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="87.75625" y="-194.20398"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="193.64908" y="-247.2434"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="Moore" label="Moore Foundation">
         <attvalues>
@@ -3126,8 +3126,8 @@
           <attvalue for="betweenesscentrality" value="12.0"></attvalue>
         </attvalues>
         <viz:size value="3.0116994"></viz:size>
-        <viz:position x="130.54068" y="268.30267"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-131.65846" y="307.9688"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="MQ" label="Maniilaq">
         <attvalues>
@@ -3144,8 +3144,8 @@
           <attvalue for="betweenesscentrality" value="1509.0833333333328"></attvalue>
         </attvalues>
         <viz:size value="4.4712887"></viz:size>
-        <viz:position x="141.1804" y="-44.00383"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-30.710785" y="207.78741"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="NAEC" label="Northern Alaska Environmental Center">
         <attvalues>
@@ -3162,8 +3162,8 @@
           <attvalue for="betweenesscentrality" value="294.0"></attvalue>
         </attvalues>
         <viz:size value="3.2866368"></viz:size>
-        <viz:position x="-65.03918" y="181.18907"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="254.34149" y="44.82265"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="NANA" label="Northwest Arctic Native Association">
         <attvalues>
@@ -3180,8 +3180,8 @@
           <attvalue for="betweenesscentrality" value="398.4166666666667"></attvalue>
         </attvalues>
         <viz:size value="3.3884382"></viz:size>
-        <viz:position x="152.85143" y="53.757008"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="21.626272" y="3.9860497"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="NSF" label="National Science Foundation">
         <attvalues>
@@ -3198,8 +3198,8 @@
           <attvalue for="betweenesscentrality" value="4152.0321040071"></attvalue>
         </attvalues>
         <viz:size value="7.048045"></viz:size>
-        <viz:position x="4.40907" y="33.856438"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-113.943596" y="-18.343622"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NASA" label="National Aeronautics &amp; Space Administration">
         <attvalues>
@@ -3216,8 +3216,8 @@
           <attvalue for="betweenesscentrality" value="463.6892357642357"></attvalue>
         </attvalues>
         <viz:size value="3.4520762"></viz:size>
-        <viz:position x="-58.24096" y="174.66133"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="164.77625" y="49.157562"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NC" label="Nature Conservancy">
         <attvalues>
@@ -3234,8 +3234,8 @@
           <attvalue for="betweenesscentrality" value="144.66860916860918"></attvalue>
         </attvalues>
         <viz:size value="3.1410453"></viz:size>
-        <viz:position x="-185.173" y="-77.93158"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-20.7187" y="-161.12729"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="NF" label="Northern Forum">
         <attvalues>
@@ -3252,8 +3252,8 @@
           <attvalue for="betweenesscentrality" value="45.13333333333334"></attvalue>
         </attvalues>
         <viz:size value="3.044003"></viz:size>
-        <viz:position x="114.18789" y="179.26752"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-1.5139096" y="-219.99211"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="NL" label="Northern Latitudes">
         <attvalues>
@@ -3270,8 +3270,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-114.97428" y="-23.651768"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-228.48642" y="22.355604"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="NMFS" label="National Marine Fisheries Service">
         <attvalues>
@@ -3288,8 +3288,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="259.43875" y="121.23146"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-126.53114" y="330.82504"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NOAA" label="National Oceanic and Atmospheric Administration">
         <attvalues>
@@ -3306,8 +3306,8 @@
           <attvalue for="betweenesscentrality" value="939.6086080586076"></attvalue>
         </attvalues>
         <viz:size value="3.9160762"></viz:size>
-        <viz:position x="-34.48154" y="-126.154785"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="-157.43294" y="137.52347"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="NPFMC" label="North Pacific Fisheries Management Council">
         <attvalues>
@@ -3324,8 +3324,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-313.8823" y="59.012657"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="188.80191" y="196.6622"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NPRB" label="North Pacific Research Board">
         <attvalues>
@@ -3342,8 +3342,8 @@
           <attvalue for="betweenesscentrality" value="44.43452380952381"></attvalue>
         </attvalues>
         <viz:size value="3.0433216"></viz:size>
-        <viz:position x="-108.07043" y="-158.52591"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="25.649498" y="67.237"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NRCS" label="Study of Environmental Arctic Change">
         <attvalues>
@@ -3360,8 +3360,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-216.33076" y="40.785057"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="34.933952" y="383.50354"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NRDC" label="Natural Resource Defense Council">
         <attvalues>
@@ -3378,8 +3378,8 @@
           <attvalue for="betweenesscentrality" value="47.846581196581184"></attvalue>
         </attvalues>
         <viz:size value="3.0466483"></viz:size>
-        <viz:position x="-69.295074" y="-88.525986"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="34.92389" y="-34.2256"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="NSBor" label="North Slope Borough">
         <attvalues>
@@ -3396,8 +3396,8 @@
           <attvalue for="betweenesscentrality" value="148.0"></attvalue>
         </attvalues>
         <viz:size value="3.1442933"></viz:size>
-        <viz:position x="251.74654" y="-95.06578"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-191.28535" y="134.2945"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NSG" label="North Star Group">
         <attvalues>
@@ -3414,8 +3414,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="423.36823" y="-159.12206"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-1.5235906" y="-246.18378"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="NSIDC" label="National Snow &amp; Ice Data Center, University of Colorado">
         <attvalues>
@@ -3432,8 +3432,8 @@
           <attvalue for="betweenesscentrality" value="11.25"></attvalue>
         </attvalues>
         <viz:size value="3.0109682"></viz:size>
-        <viz:position x="71.20697" y="401.63757"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="257.64487" y="75.4207"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NV" label="Nulato Village">
         <attvalues>
@@ -3450,8 +3450,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-262.57742" y="-112.95007"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-241.66867" y="-258.5054"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVBar" label="Native Village of Barrow">
         <attvalues>
@@ -3468,8 +3468,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-437.78058" y="-3.5385613"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-105.10647" y="-69.9122"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVD" label="Native Village of Deering">
         <attvalues>
@@ -3486,8 +3486,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="111.46223" y="70.32258"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-9.265865" y="190.8562"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVEy" label="Native Village of Eyak">
         <attvalues>
@@ -3504,8 +3504,8 @@
           <attvalue for="betweenesscentrality" value="3.0"></attvalue>
         </attvalues>
         <viz:size value="3.002925"></viz:size>
-        <viz:position x="81.54572" y="269.86142"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="19.089731" y="-283.14993"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVK" label="Native Village of Kivalina">
         <attvalues>
@@ -3522,8 +3522,8 @@
           <attvalue for="betweenesscentrality" value="121.0"></attvalue>
         </attvalues>
         <viz:size value="3.1179695"></viz:size>
-        <viz:position x="215.65569" y="-125.879814"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="280.1375" y="61.647007"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVKw" label="Native Village of Kwigillingok">
         <attvalues>
@@ -3540,8 +3540,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-133.74487" y="-374.08246"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="103.30617" y="235.07672"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVN" label="Native Village of Newtok">
         <attvalues>
@@ -3558,8 +3558,8 @@
           <attvalue for="betweenesscentrality" value="1557.1086080586083"></attvalue>
         </attvalues>
         <viz:size value="4.518111"></viz:size>
-        <viz:position x="23.084763" y="-90.20393"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="2.2509181" y="142.58559"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVNap" label="Native Village of Napakiak">
         <attvalues>
@@ -3576,8 +3576,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="20.954325" y="-304.5424"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-35.88614" y="19.737051"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVNup" label="Native Village of Nunapitchuk">
         <attvalues>
@@ -3594,8 +3594,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-236.4944" y="-297.25693"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="159.07768" y="255.94957"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVPH" label="Native Village of Port Heiden">
         <attvalues>
@@ -3612,8 +3612,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="279.63702" y="264.9797"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="148.85213" y="-67.3968"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVS" label="Native Village of Shishmaref IRA Council">
         <attvalues>
@@ -3630,8 +3630,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="301.569" y="25.248606"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="303.94345" y="-220.64821"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="NVSel" label="Native Village of Selawik">
         <attvalues>
@@ -3648,8 +3648,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="101.27474" y="136.54599"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="12.637034" y="231.5776"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NVSIC" label="Native Village of Shaktoolik IRA Council">
         <attvalues>
@@ -3666,8 +3666,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-140.07687" y="-384.19858"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="119.43877" y="-102.838554"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="NVST" label="Native Village of St. Michael IRA Council">
         <attvalues>
@@ -3684,8 +3684,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="135.53041" y="-202.56999"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="355.10538" y="18.050175"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="NVU" label="Native Village of Unalakleet">
         <attvalues>
@@ -3702,8 +3702,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="55.03974" y="-378.35605"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-138.1742" y="-180.1688"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="OAK" label="Oak Foundation">
         <attvalues>
@@ -3720,8 +3720,8 @@
           <attvalue for="betweenesscentrality" value="416.5"></attvalue>
         </attvalues>
         <viz:size value="3.4060688"></viz:size>
-        <viz:position x="-171.54443" y="-189.9922"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="221.59483" y="-98.17079"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="OC" label="Ocean Conservancy">
         <attvalues>
@@ -3738,8 +3738,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-272.03574" y="-17.214874"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="206.0592" y="167.56508"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="OCE" label="Oceana">
         <attvalues>
@@ -3756,8 +3756,8 @@
           <attvalue for="betweenesscentrality" value="134.51666666666668"></attvalue>
         </attvalues>
         <viz:size value="3.1311476"></viz:size>
-        <viz:position x="-32.713104" y="-144.42703"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="123.88774" y="46.609833"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="OCT" label="Our Children's Trust">
         <attvalues>
@@ -3774,8 +3774,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-255.67964" y="39.980618"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="198.70486" y="461.64737"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="PNWRS" label="Pacific Northwest Research Station">
         <attvalues>
@@ -3792,8 +3792,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-68.886696" y="-197.96964"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-301.318" y="248.2234"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="Pack" label="Packard Foundation">
         <attvalues>
@@ -3810,8 +3810,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="131.5564" y="521.73083"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-353.8563" y="109.76935"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="PCC" label="Pacific Coast Collaborative">
         <attvalues>
@@ -3828,8 +3828,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="260.55734" y="119.07367"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="29.952812" y="6.331972"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="PE" label="Pacific Environment">
         <attvalues>
@@ -3846,8 +3846,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-6.7769637" y="-127.42353"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="78.089905" y="70.527954"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="PEW" label="Pew Charitable Trusts">
         <attvalues>
@@ -3864,8 +3864,8 @@
           <attvalue for="betweenesscentrality" value="469.4556388056388"></attvalue>
         </attvalues>
         <viz:size value="3.457698"></viz:size>
-        <viz:position x="-149.89032" y="-176.2975"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="87.024155" y="114.443054"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="PKC" label="Polar Knowledge Canada">
         <attvalues>
@@ -3882,8 +3882,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-146.4553" y="379.83447"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="121.02931" y="170.55908"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="PLI" label="Polar Law Institute">
         <attvalues>
@@ -3900,8 +3900,8 @@
           <attvalue for="betweenesscentrality" value="140.5"></attvalue>
         </attvalues>
         <viz:size value="3.1369812"></viz:size>
-        <viz:position x="212.63597" y="373.80374"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-319.6461" y="-219.45168"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="PRISM" label="Parameter-Elevetation Regressions on Independent Slope Models">
         <attvalues>
@@ -3918,8 +3918,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-128.93651" y="375.73907"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-231.47878" y="-306.26434"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="PWSSC" label="Prince Willam Sound Science Center">
         <attvalues>
@@ -3936,8 +3936,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="271.97064" y="48.51996"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="314.94806" y="-182.45222"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="RAIPON" label="Russian Association of Indigenous Peoples of the North">
         <attvalues>
@@ -3954,8 +3954,8 @@
           <attvalue for="betweenesscentrality" value="72.5"></attvalue>
         </attvalues>
         <viz:size value="3.0706842"></viz:size>
-        <viz:position x="-91.85163" y="262.4609"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-255.99571" y="13.452443"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="REAP" label="Renewable Energy Alaska Project">
         <attvalues>
@@ -3972,8 +3972,8 @@
           <attvalue for="betweenesscentrality" value="699.0584998334996"></attvalue>
         </attvalues>
         <viz:size value="3.6815505"></viz:size>
-        <viz:position x="35.51269" y="12.604959"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="168.58073" y="-112.6672"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Roads" label="US Department of Interior's Bureau of Indian Affairs/ Road Maintenance Program">
         <attvalues>
@@ -3990,8 +3990,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-43.90814" y="162.35605"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-285.25882" y="112.745834"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="RWB" label="Rivers Without Borders">
         <attvalues>
@@ -4008,8 +4008,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="238.1549" y="21.011637"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-350.4147" y="-39.3127"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="SAI" label="Stefansson Arctic Institute">
         <attvalues>
@@ -4026,8 +4026,8 @@
           <attvalue for="betweenesscentrality" value="34.5"></attvalue>
         </attvalues>
         <viz:size value="3.0336359"></viz:size>
-        <viz:position x="209.34857" y="340.40326"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-326.1964" y="-189.99992"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="SALMON" label="Sea-Air-Land Modeling and Observing Network">
         <attvalues>
@@ -4044,8 +4044,8 @@
           <attvalue for="betweenesscentrality" value="60.0"></attvalue>
         </attvalues>
         <viz:size value="3.0584974"></viz:size>
-        <viz:position x="-139.00945" y="269.26828"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="210.4269" y="-48.948116"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="SAON" label="Sustaining Arctic Observing Networks">
         <attvalues>
@@ -4062,8 +4062,8 @@
           <attvalue for="betweenesscentrality" value="364.4794372294373"></attvalue>
         </attvalues>
         <viz:size value="3.355351"></viz:size>
-        <viz:position x="-68.867775" y="204.10834"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-301.7896" y="85.04342"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="SASC" label="Smithsonian Arctic Studies Center">
         <attvalues>
@@ -4080,8 +4080,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="290.43787" y="364.1774"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="272.9818" y="-181.3381"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="SC" label="Saami Council">
         <attvalues>
@@ -4098,8 +4098,8 @@
           <attvalue for="betweenesscentrality" value="1712.5102564102542"></attvalue>
         </attvalues>
         <viz:size value="4.6696205"></viz:size>
-        <viz:position x="171.1954" y="34.39177"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-65.91617" y="-112.69143"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="Sea" label="Sealaska Corporation">
         <attvalues>
@@ -4116,8 +4116,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-209.3597" y="-394.94238"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="21.835924" y="301.77652"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="SEACC" label="Southeast Alaska Conservation Council">
         <attvalues>
@@ -4134,8 +4134,8 @@
           <attvalue for="betweenesscentrality" value="250.9283272283275"></attvalue>
         </attvalues>
         <viz:size value="3.244644"></viz:size>
-        <viz:position x="138.8565" y="103.312645"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="0.98265266" y="-6.5860844"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Seagrant" label="NOAA Sea Grant">
         <attvalues>
@@ -4152,8 +4152,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="136.66301" y="385.0451"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-73.37947" y="-329.6708"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="SEARCH" label="Study of Environmental Arctic Change">
         <attvalues>
@@ -4170,8 +4170,8 @@
           <attvalue for="betweenesscentrality" value="7.0"></attvalue>
         </attvalues>
         <viz:size value="3.0068247"></viz:size>
-        <viz:position x="196.67778" y="-185.61574"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="-65.46174" y="2.6507945"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="Shell" label="Shell">
         <attvalues>
@@ -4188,8 +4188,8 @@
           <attvalue for="betweenesscentrality" value="1220.4094627594645"></attvalue>
         </attvalues>
         <viz:size value="4.189844"></viz:size>
-        <viz:position x="-243.78624" y="-36.299538"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="126.94167" y="-147.86221"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="Silver B S" label="Silver Bay Seafoods">
         <attvalues>
@@ -4206,8 +4206,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-7.980024" y="110.049934"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="302.55243" y="120.16239"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="Sitka" label="City and Borough of Sitka">
         <attvalues>
@@ -4224,8 +4224,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-42.242672" y="-316.80222"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="135.09323" y="-311.93057"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="SmithIns" label="Smithsonian Institution">
         <attvalues>
@@ -4242,8 +4242,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="206.81123" y="58.437027"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="90.216324" y="-320.36072"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="SOI" label="Students on Ice">
         <attvalues>
@@ -4260,8 +4260,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-326.40237" y="-74.960686"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="116.3176" y="-241.57455"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="SSSC" label="Sitka Sound Science Center">
         <attvalues>
@@ -4278,8 +4278,8 @@
           <attvalue for="betweenesscentrality" value="6.0"></attvalue>
         </attvalues>
         <viz:size value="3.0058498"></viz:size>
-        <viz:position x="-66.380844" y="314.2138"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="239.27203" y="21.98294"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="STAGS" label="Science and Technology Alliance for Global Sustainability">
         <attvalues>
@@ -4296,8 +4296,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-14.82449" y="-187.08522"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-97.84514" y="298.57632"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Stat" label="Statoil">
         <attvalues>
@@ -4314,8 +4314,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-246.40828" y="-375.38553"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-196.29405" y="-105.54283"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="SBB" label="Salmon Beyond Borders">
         <attvalues>
@@ -4332,8 +4332,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="348.2575" y="4.6922574"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-357.5732" y="224.6407"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="TCC" label="Tanana Chiefs Conference">
         <attvalues>
@@ -4350,8 +4350,8 @@
           <attvalue for="betweenesscentrality" value="56.80649350649352"></attvalue>
         </attvalues>
         <viz:size value="3.0553837"></viz:size>
-        <viz:position x="-222.07907" y="-66.44986"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-160.7923" y="-14.080103"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="TEPC" label="Tribal Environmental Policy Center">
         <attvalues>
@@ -4368,8 +4368,8 @@
           <attvalue for="betweenesscentrality" value="26.383333333333333"></attvalue>
         </attvalues>
         <viz:size value="3.0257225"></viz:size>
-        <viz:position x="-179.45673" y="-238.46306"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="252.85292" y="-104.45408"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="TFA" label="Trustees for Alaska">
         <attvalues>
@@ -4386,8 +4386,8 @@
           <attvalue for="betweenesscentrality" value="742.8454212454211"></attvalue>
         </attvalues>
         <viz:size value="3.7242408"></viz:size>
-        <viz:position x="-82.58958" y="30.213583"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="39.956764" y="-107.03219"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="TMU" label="Trust for Mutual Understanding">
         <attvalues>
@@ -4404,8 +4404,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="176.02065" y="-2.1611156"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="283.3209" y="216.32144"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="TTC" label="Teller Traditional Council">
         <attvalues>
@@ -4422,8 +4422,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-216.15181" y="-288.44547"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="356.31912" y="-84.949974"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="UAA" label="University of Alaska Anchorage">
         <attvalues>
@@ -4440,8 +4440,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="98.88792" y="31.360945"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="67.676186" y="1.8369498"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="UAF" label="University of Alaska Fairbanks">
         <attvalues>
@@ -4458,8 +4458,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-59.219284" y="102.83959"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="46.788612" y="-54.54926"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="UArctic" label="University of the Arctic">
         <attvalues>
@@ -4476,8 +4476,8 @@
           <attvalue for="betweenesscentrality" value="1087.2666666666667"></attvalue>
         </attvalues>
         <viz:size value="4.060036"></viz:size>
-        <viz:position x="-15.107861" y="270.7624"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="-200.78047" y="-158.89046"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="UAS" label="University of Alaska Southeast">
         <attvalues>
@@ -4494,8 +4494,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="80.64966" y="-72.86961"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="270.10178" y="-55.68114"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="UCS" label="Union of Concerned Scientists">
         <attvalues>
@@ -4512,8 +4512,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="158.48723" y="-298.63788"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-30.62673" y="-222.29448"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="UIC" label="Ukpeagvik Inupiat Corporation">
         <attvalues>
@@ -4530,8 +4530,8 @@
           <attvalue for="betweenesscentrality" value="136.33333333333334"></attvalue>
         </attvalues>
         <viz:size value="3.1329188"></viz:size>
-        <viz:position x="-357.63513" y="74.1174"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="44.34963" y="-246.84937"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="UNEP" label="United Nations Environment Programme">
         <attvalues>
@@ -4548,8 +4548,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-142.33185" y="287.69446"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-409.1528" y="128.38884"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="UNFCCC" label="United Nations Framework Convention on Climate Change">
         <attvalues>
@@ -4566,8 +4566,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-242.69856" y="40.35698"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-378.6851" y="-50.90174"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USCOE" label="US Army Corp of Engineers">
         <attvalues>
@@ -4584,8 +4584,8 @@
           <attvalue for="betweenesscentrality" value="219.37499999999997"></attvalue>
         </attvalues>
         <viz:size value="3.2138808"></viz:size>
-        <viz:position x="-87.5256" y="-99.91724"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="222.18782" y="-155.7868"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USAID" label="U.S. Agency for International Development">
         <attvalues>
@@ -4602,8 +4602,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="86.716095" y="69.580246"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-239.84113" y="-284.02652"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USARC" label="United States Arctic Research Commission">
         <attvalues>
@@ -4620,8 +4620,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="117.23675" y="-168.56079"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="110.83663" y="-74.86382"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USCG" label="US Coast Guard">
         <attvalues>
@@ -4638,8 +4638,8 @@
           <attvalue for="betweenesscentrality" value="1.0"></attvalue>
         </attvalues>
         <viz:size value="3.000975"></viz:size>
-        <viz:position x="-175.87213" y="355.2892"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="139.52205" y="349.27026"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="USDA" label="U.S. Department of Agriculture">
         <attvalues>
@@ -4656,8 +4656,8 @@
           <attvalue for="betweenesscentrality" value="336.54819624819635"></attvalue>
         </attvalues>
         <viz:size value="3.3281193"></viz:size>
-        <viz:position x="120.803764" y="108.86558"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-224.07413" y="154.20743"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDA-FSL" label="USDA Forest Service Juneau Forest Science Laboratory">
         <attvalues>
@@ -4674,8 +4674,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-1.4206369" y="4.3214993"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="400.6869" y="-87.47324"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USDOT/Airpt" label="US Department of Transportation/ Federal Aviation Adm. Region Airports Division">
         <attvalues>
@@ -4692,8 +4692,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-305.6579" y="183.05627"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-335.6407" y="8.7624655"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USFWS" label="U.S. Fish &amp; Wildlife Service">
         <attvalues>
@@ -4710,8 +4710,8 @@
           <attvalue for="betweenesscentrality" value="27.319047619047616"></attvalue>
         </attvalues>
         <viz:size value="3.026635"></viz:size>
-        <viz:position x="173.70296" y="-72.66439"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="85.236496" y="172.07576"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USFSCLAB" label="USDA US Forest Service Juneau Forest Science Laboratory">
         <attvalues>
@@ -4728,8 +4728,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-204.03297" y="-268.18164"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="357.85104" y="165.3709"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USGCRP" label="U.S. Global Change Research Program">
         <attvalues>
@@ -4746,8 +4746,8 @@
           <attvalue for="betweenesscentrality" value="254.00000000000003"></attvalue>
         </attvalues>
         <viz:size value="3.2476387"></viz:size>
-        <viz:position x="194.2798" y="92.96024"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-114.93213" y="-271.52756"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USGS" label="US Geological Survey">
         <attvalues>
@@ -4764,8 +4764,8 @@
           <attvalue for="betweenesscentrality" value="296.29285714285714"></attvalue>
         </attvalues>
         <viz:size value="3.2888722"></viz:size>
-        <viz:position x="17.964516" y="74.86117"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="184.81177" y="162.32428"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USHAC" label="U.S. House Arctic Caucus">
         <attvalues>
@@ -4782,8 +4782,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-99.70537" y="-53.819393"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="342.4699" y="138.25063"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="USSAC" label="U.S. Senate Arctic Caucus">
         <attvalues>
@@ -4800,8 +4800,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-167.10014" y="88.733635"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="301.5895" y="-289.82867"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="VA" label="Village of Alakanuk">
         <attvalues>
@@ -4818,8 +4818,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-189.00664" y="-314.0193"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-165.08698" y="165.47118"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="VChef" label="Village of Chefornak">
         <attvalues>
@@ -4836,8 +4836,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="242.11876" y="-61.975594"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="80.748695" y="146.86003"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="VCP" label="Village Clarks Point">
         <attvalues>
@@ -4854,8 +4854,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="228.27426" y="-32.934425"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="342.91547" y="39.80238"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="VK" label="Village of Kotlik">
         <attvalues>
@@ -4872,8 +4872,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-43.259895" y="112.93408"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-106.032" y="-59.212784"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="VOAI" label="Voice of the Arctic Inupiat">
         <attvalues>
@@ -4890,8 +4890,8 @@
           <attvalue for="betweenesscentrality" value="243.33333333333331"></attvalue>
         </attvalues>
         <viz:size value="3.2372391"></viz:size>
-        <viz:position x="-449.90567" y="-18.558266"></viz:position>
-        <viz:color r="255" g="121" b="58"></viz:color>
+        <viz:position x="-117.05807" y="-185.20775"></viz:position>
+        <viz:color r="242" g="131" b="241"></viz:color>
       </node>
       <node id="WC" label="Wilson Center">
         <attvalues>
@@ -4908,8 +4908,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-294.20947" y="32.237225"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="156.75897" y="257.7247"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="WCRP" label="World Climate Research Programme">
         <attvalues>
@@ -4926,8 +4926,8 @@
           <attvalue for="betweenesscentrality" value="9.0"></attvalue>
         </attvalues>
         <viz:size value="3.0087745"></viz:size>
-        <viz:position x="-74.72443" y="-50.62708"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-330.66986" y="-93.49019"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Wells F" label="Wells Fargo">
         <attvalues>
@@ -4944,8 +4944,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-28.511478" y="355.89966"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="228.928" y="104.92017"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="WHOI" label="Woods Hole Oceanographic Institution">
         <attvalues>
@@ -4962,8 +4962,8 @@
           <attvalue for="betweenesscentrality" value="1490.5624486624488"></attvalue>
         </attvalues>
         <viz:size value="4.4532313"></viz:size>
-        <viz:position x="73.62461" y="-34.546185"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="-7.685348" y="-170.71872"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="WI" label="Wetlands International">
         <attvalues>
@@ -4980,8 +4980,8 @@
           <attvalue for="betweenesscentrality" value="703.680891330892"></attvalue>
         </attvalues>
         <viz:size value="3.6860573"></viz:size>
-        <viz:position x="-213.71484" y="-156.81161"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="155.89235" y="-62.268982"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="WIL" label="Wilburforce Foundation">
         <attvalues>
@@ -4998,8 +4998,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-231.7031" y="-99.601524"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="18.175426" y="-64.25063"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="WMO" label="World Metereological Organization">
         <attvalues>
@@ -5016,8 +5016,8 @@
           <attvalue for="betweenesscentrality" value="242.0"></attvalue>
         </attvalues>
         <viz:size value="3.235939"></viz:size>
-        <viz:position x="-102.58182" y="-181.06616"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-299.81036" y="-136.79222"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="WWF" label="World Wildlife Fund">
         <attvalues>
@@ -5034,8 +5034,8 @@
           <attvalue for="betweenesscentrality" value="2541.0400377400374"></attvalue>
         </attvalues>
         <viz:size value="5.4774"></viz:size>
-        <viz:position x="-105.574554" y="-254.0147"></viz:position>
-        <viz:color r="133" g="187" b="0"></viz:color>
+        <viz:position x="-37.75602" y="127.44113"></viz:position>
+        <viz:color r="255" g="114" b="71"></viz:color>
       </node>
       <node id="Yukon College" label="Yukon College">
         <attvalues>
@@ -5052,8 +5052,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="154.1858" y="224.95953"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="-102.502235" y="165.77408"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="DOW" label="Defenders of Wildlife">
         <attvalues>
@@ -5070,8 +5070,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="306.52042" y="15.041681"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="333.84662" y="-208.42331"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="Chu" label="Chugach Alaska Corporation">
         <attvalues>
@@ -5088,8 +5088,8 @@
           <attvalue for="betweenesscentrality" value="2.0"></attvalue>
         </attvalues>
         <viz:size value="3.00195"></viz:size>
-        <viz:position x="86.48077" y="254.90726"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="-79.62223" y="-111.351616"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="NAN" label="Alaska Nanuuq Commission">
         <attvalues>
@@ -5106,8 +5106,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-217.23549" y="281.80725"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="208.64395" y="378.38092"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="NAS" label="National Academy of the Sciences">
         <attvalues>
@@ -5124,8 +5124,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-157.70973" y="-29.997814"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="79.802795" y="52.4736"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="ACUL" label="Arctic Centre University of Lapland">
         <attvalues>
@@ -5142,8 +5142,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="246.08641" y="364.10556"></viz:position>
-        <viz:color r="0" g="187" b="140"></viz:color>
+        <viz:position x="-331.90652" y="-264.95853"></viz:position>
+        <viz:color r="0" g="193" b="109"></viz:color>
       </node>
       <node id="TDW" label="Three Degrees Warmer">
         <attvalues>
@@ -5160,8 +5160,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="310.9662" y="-83.354614"></viz:position>
-        <viz:color r="126" g="102" b="92"></viz:color>
+        <viz:position x="355.0713" y="87.2587"></viz:position>
+        <viz:color r="120" g="103" b="98"></viz:color>
       </node>
       <node id="USFS" label="U.S. Forestry Service">
         <attvalues>
@@ -5178,8 +5178,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="82.4151" y="-159.63965"></viz:position>
-        <viz:color r="252" g="127" b="233"></viz:color>
+        <viz:position x="43.23645" y="273.81155"></viz:position>
+        <viz:color r="0" g="196" b="251"></viz:color>
       </node>
       <node id="IN" label="IN">
         <attvalues>
@@ -5190,8 +5190,8 @@
           <attvalue for="betweenesscentrality" value="3687.191605616604"></attvalue>
         </attvalues>
         <viz:size value="6.5948462"></viz:size>
-        <viz:position x="-0.29970497" y="123.05325"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="81.53639" y="-105.73737"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="NPS" label="NPS">
         <attvalues>
@@ -5202,8 +5202,8 @@
           <attvalue for="betweenesscentrality" value="68.19404761904762"></attvalue>
         </attvalues>
         <viz:size value="3.0664861"></viz:size>
-        <viz:position x="-106.77306" y="207.66385"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-135.23926" y="-19.110847"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOC" label="DOC">
         <attvalues>
@@ -5214,8 +5214,8 @@
           <attvalue for="betweenesscentrality" value="5.643434343434342"></attvalue>
         </attvalues>
         <viz:size value="3.005502"></viz:size>
-        <viz:position x="-147.32243" y="175.01912"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="45.628815" y="-206.43947"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOD" label="DOD">
         <attvalues>
@@ -5226,8 +5226,8 @@
           <attvalue for="betweenesscentrality" value="71.30590243090244"></attvalue>
         </attvalues>
         <viz:size value="3.06952"></viz:size>
-        <viz:position x="170.4294" y="68.65395"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-66.51023" y="-265.63428"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="none" label="none">
         <attvalues>
@@ -5238,8 +5238,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-28.718103" y="19.483887"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="189.5807" y="-87.769936"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOE" label="DOE">
         <attvalues>
@@ -5250,8 +5250,8 @@
           <attvalue for="betweenesscentrality" value="71.30590243090244"></attvalue>
         </attvalues>
         <viz:size value="3.06952"></viz:size>
-        <viz:position x="158.02773" y="113.74058"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-211.2862" y="-176.38394"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DHHS" label="DHHS">
         <attvalues>
@@ -5262,8 +5262,8 @@
           <attvalue for="betweenesscentrality" value="5.643434343434342"></attvalue>
         </attvalues>
         <viz:size value="3.005502"></viz:size>
-        <viz:position x="142.51054" y="180.97014"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="89.332695" y="-127.79997"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DHS" label="DHS">
         <attvalues>
@@ -5274,8 +5274,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-223.32721" y="252.85054"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="227.63057" y="289.98358"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOJ" label="DOJ">
         <attvalues>
@@ -5286,8 +5286,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="225.81076" y="88.373985"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="195.4193" y="-117.690994"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOL" label="DOL">
         <attvalues>
@@ -5298,8 +5298,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="75.281654" y="300.40427"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="95.532524" y="-104.6637"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOS" label="DOS">
         <attvalues>
@@ -5310,8 +5310,8 @@
           <attvalue for="betweenesscentrality" value="5.643434343434342"></attvalue>
         </attvalues>
         <viz:size value="3.005502"></viz:size>
-        <viz:position x="234.37177" y="-60.829414"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-272.16107" y="-127.32835"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOI" label="DOI">
         <attvalues>
@@ -5322,8 +5322,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="314.74347" y="-131.53639"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-198.01237" y="-256.15964"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="DOT" label="DOT">
         <attvalues>
@@ -5334,8 +5334,8 @@
           <attvalue for="betweenesscentrality" value="5.643434343434342"></attvalue>
         </attvalues>
         <viz:size value="3.005502"></viz:size>
-        <viz:position x="102.06756" y="54.933"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-100.10504" y="-227.64977"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="EPA" label="EPA">
         <attvalues>
@@ -5346,8 +5346,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="140.71284" y="-77.55419"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-109.780106" y="-204.35449"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="FEMA" label="FEMA">
         <attvalues>
@@ -5358,8 +5358,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="1.5737766" y="-148.46846"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-234.1111" y="141.92516"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="UA" label="UA">
         <attvalues>
@@ -5370,8 +5370,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="318.35672" y="165.45116"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-165.7456" y="-292.22263"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="BIAHouse" label="BIAHouse">
         <attvalues>
@@ -5382,8 +5382,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="242.5145" y="252.59242"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-172.54729" y="35.319504"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="USDOTAirpt" label="USDOTAirpt">
         <attvalues>
@@ -5394,8 +5394,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="222.23358" y="148.9883"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="190.0551" y="220.90952"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="LCCC" label="LCCC">
         <attvalues>
@@ -5406,8 +5406,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="-139.53844" y="106.334526"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-381.85693" y="-33.24569"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="HUDBlk Grt" label="HUDBlk Grt">
         <attvalues>
@@ -5418,8 +5418,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="90.34823" y="-143.44838"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="346.1514" y="-150.57477"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="Doy" label="Doy">
         <attvalues>
@@ -5430,8 +5430,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="3.1388693" y="-331.84317"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-373.46674" y="-292.10275"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="HUDImminent" label="HUDImminent">
         <attvalues>
@@ -5442,8 +5442,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="195.9479" y="180.18826"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="144.10567" y="-30.304008"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="HUDNative House" label="HUDNative House">
         <attvalues>
@@ -5454,8 +5454,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="158.89333" y="272.65018"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="-93.31388" y="6.8904552"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
       <node id="WA" label="WA">
         <attvalues>
@@ -5466,8 +5466,8 @@
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="3.0"></viz:size>
-        <viz:position x="167.13724" y="-149.85265"></viz:position>
-        <viz:color r="0" g="192" b="255"></viz:color>
+        <viz:position x="120.106674" y="201.22974"></viz:position>
+        <viz:color r="162" g="176" b="0"></viz:color>
       </node>
     </nodes>
     <edges>
