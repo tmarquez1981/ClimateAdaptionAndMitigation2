@@ -1,3 +1,4 @@
+<!-- A template html to build other html files from -->
 {% load staticfiles %}
 <html>
 <head>
@@ -6,302 +7,275 @@
   <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
   <script src='{% static "js/jquery.min.js" %}'> </script>
   <script src='{% static "js/bootstrap.js" %}'> </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier/1.0.3/oms.min.js"></script>
+  <script src='{% static "files/sigma.min.js" %}'> </script>
+  <script src='{% static "files/sigma.parsers.gexf.min.js" %}'> </script>
+  <script src='{% static "js/oms.min.js" %}'> </script>
+
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+  <style>
+      html, body { height: auto; }
+      p { margin: 0em 0; }
+      #map_element2 { position: absolute; bottom: 0; left: 50; right: 50; top: 270; }
+    </style>
+
+
+    <style>
+
+       #map_element {
+         height: 70%;
+         width: 100%;
+       }
+    </style>
+
+    <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+    </style>
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-  <h1></h1>
-  <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Climate Adaptation and Mitigation Project</div>
-  <h1></h1>
+  <style type="text/css">
+  body {
+    margin: 0;
+  }
+
+  </style>
 
   <style>
   .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-  }
+    }
   </style>
 
   <style>
-  #footer{
-    width:100%;
-    position:fixed;
-    bottom:0;
-    left:0;
-  }
-  #map {
-    height: 400px;
-    width: 100%;
-  }
+    #footer{
+      width:100%;
+      position:fixed;
+      bottom:0;
+      left:0;
+    }
   </style>
 
-</head>
+  <h1></h1>
+  <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Climate Adaptation and Mitigation Project</div>
+  <h1></h1>
 
-<!--body-->
+</head>
 <body>
 
   <div>
     <!--navbar begin-->
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!--<a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>-->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <!--<a class="navbar-brand" href="/ClimateAdaptationMitigation/home">Home</a>-->
 
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-          <ul class="nav navbar-nav navbar-center">
-            <li><a href="/ClimateAdaptationMitigation/home">Home</a></li>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+              <ul class="nav navbar-nav navbar-center">
+                <li><a href="/ClimateAdaptationMitigation/home">Home</a></li>
 
-            <!--dropdown for navbar begin -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a SNA Visualization <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/ClimateAdaptationMitigation/organizationmap">Geographical</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+                <!--dropdown for navbar begin -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choose a SNA Visualization <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/ClimateAdaptationMitigation/organizationmap">Geographical</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="/ClimateAdaptationMitigation/scope">By Scope</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="/ClimateAdaptationMitigation/type">By Type</a></li>
+                  </ul>
+                </li>
+                <!--dropdown for navbar ends -->
+
+                <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
+                <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
+                <li id="form"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
+
               </ul>
-            </li>
-            <!--dropdown for navbar ends -->
 
-            <li id="about"><a href="/ClimateAdaptationMitigation/about">About</a></li>
-            <li><a href="/ClimateAdaptationMitigation/contact">Contact</a></li>
-            <li id="form"><a href="/ClimateAdaptationMitigation/form">Add Organization</a></li>
-          </ul>
+              <ul class="nav navbar-nav navbar-right">
+              </ul>
+          </div>
+        </nav>
+  <!--navbar end-->
+<h2 align="center">Visualization by Geographical Location</h2>
 
-          <ul class="nav navbar-nav navbar-right">
-          </ul>
-        </div>
-      </nav>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEfR1XdwfyBnBm-KcKvwKLudyU0P1I830&callback=initMap&libraries=places">
+    </script>
 
-      <!--navbar end-->
-    </div>
-  </div>
-  <div class="container">
+    <script async defer src="/static/js/oms.min.js?spiderfier_callback=initMap"></script>
 
-    <h2 align="center">Visualization by Geographical Location</h2>
 
-    <div class="row">
-      <div class="col-lg-3-offset-lg-3">
 
-        <h1>
-          &nbsp;
-          &nbsp;
-        </h1>
 
-        <!--<p id="queryset" value={{ queryset|safe|escape|striptags }}</p>-->
-          <div id="map"></div>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKH_cFYUzsJiimkElXIL0R_Spwfg4Z5Tw&sensor=false&libraries=places"></script>
 
-          <script>
-          // grab data in json format
-          var queryset = "{{ queryset|escapejs }}";
-          //var data = JSON.parse(queryset);
-          // parse the data
-          var data = JSON.parse(queryset);
+<!--<p id="queryset" value={{ queryset|safe|escape|striptags }}</p>-->
+  <div id="map_element2"></div>
 
-          //create an array of essentially model objects
-          var dataFields = [];
-          for (i = 0; i < data.length; i++){
-            dataFields.push(data[i].fields);
-          }
-          //parse the data into the entity dictionary
-          var entities = {};
-          for(i = 0; i < dataFields.length; i++){
-            entities[i] = {
-                          Name: dataFields[i].Label,
-                          Lat: dataFields[i].Lat,
-                          Long: dataFields[i].Lng,
-                          Location: dataFields[i].Location,
-                          Scope: dataFields[i].ScopeCleaned,
-                          Type: dataFields[i].InstitutionalType,
-                          Issue: dataFields[i].IssueFocus,
-                          Source: dataFields[i].source,
-                          Desc: dataFields[i].description
-                        };
-          }
-          //var fields = entities;
-          //console.log(fields);
+ <script>
+var mapLibsReady = 0;
 
-          //where the map is centered
-          var position = {lat: 61.2181, lng: -149.9003};
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 4,
-            center: position
-          });
-          var searchBox = new google.maps.places.SearchBox(document.getElementById('map'));
+      function initMap() {
+        if (++ mapLibsReady < 2) return;
+        var mapElement2= document.getElementById('map_element2');
+        var map = new google.maps.Map(mapElement2, { center: { lat: 61.2181, lng: -149.9003 }, zoom: 4 });
+        var iw = new google.maps.InfoWindow();
+        var oms = new OverlappingMarkerSpiderfier(map, {
+          markersWontMove: true,   // we promise not to move any markers, allowing optimizations
+          markersWontHide: true,   // we promise not to change visibility of any markers, allowing optimizations
+          basicFormatEvents: true  // allow the library to skip calculating advanced formatting information
+        });
 
-          //array of markers
-          var markers = [];
-          /*
-          var markers = [
-            {
-              coords:{lat:61.2181,lng:-149.9003},
-              iconImage:'',
-              content:'<h3>Some content here</h3>'
-            }
-          ];
-          */
-          // get the size of the entity dictionary
-          var entSize = Object.keys(entities).length;
-
-          // add entites to markers
-          for(i = 0; i < entSize; i++){
-            //get the lat in a number value
-            var lat = Number(entities[i].Lat);
-            if(lat == null){
-              lat = 0;
-            }
-
-            //get the long in a number value
-            var long = Number(entities[i].Long);
-            if(long == null){
-              long = 0;
-            }
-
-            //get the entity name
-            var contentInfo = getContent(entities[i]);
-            var marker = getMarker(entities[i]);
-            markers.push(
-            {
-              coords:{lat:lat,lng:long},
-              icon: marker,
-              content:contentInfo
-            });
-
-          }
-
-          //loop through markers and add them to the map
-          for(var i = 0; i < markers.length; i++){
-            addMarker(markers[i]);
-          }
-
-          // get the content of the entity object
-          function getContent(entity){
-            var contentString = "";
-            var label = entity.Name;
-            var location = entity.Location;
-            var source = entity.Source;
-            var desc = entity.Desc;
-            if(desc == ""){
-              desc = "Information needed."
-            }
-
-            //referenced from https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
-            contentString = '<div id="content">'+
-              '<div id="siteNotice">'+
-              '</div>'+
-              '<h1 id="firstHeading" class="firstHeading">' + label + '</h1>'+
-              '<div id="bodyContent">'+
-              '<p><b>' + label + '</b>, located at ' + location + ', ' + desc + '</p>'+
-              '<p>Attribution: ' + label + ', <a href=' + source + '</a> '+ source +
-              '</p>'+
-              '</div>'+
-              '</div>';
-
-            return contentString;
-          }
-
-          // add marker function
-          // for adding multiple markers
-          // anch, ak lat/lng: lat:61.2181, lng:-149.9003
-          function addMarker(props){
-            var marker = new google.maps.Marker({
-              position:props.coords,
-              map:map,
-              icon: {
-                url: props.icon,
-                // This marker is 25 pixels wide by 25 pixels high.
-                scaledSize: new google.maps.Size(25, 25),
-              }
-              //icon: getMarker(props.)
-            });
-
-            //check for custom icon
-
-            if(props.icon){
-              //set icon image
+        for (var i = 0, len = window.mapData.length; i < len; i ++) {
+          (function() {  // make a closure over the marker and marker data
+            var markerData = window.mapData[i];  // e.g. { lat: 50.123, lng: 0.123, text: 'XYZ' }
+            var marker = new google.maps.Marker({ position: markerData, icon: { url: markerData.icon, scaledSize: new google.maps.Size(25,25)} });  // markerData works here as a LatLngLiteral
+            google.maps.event.addListener(marker, 'spider_click', function(e) {  // 'spider_click', not plain 'click'
               marker.setIcon(marker.icon);
-            }
-
-            //check for content
-            if(props.content){
-              var infoWindow = new google.maps.InfoWindow({
-                content: props.content
-              });
-
-              //event listener
-              marker.addListener('click', function(){
-                infoWindow.open(map, marker);
-              });
-            }
-          }
-
-          //get the appropriate icon for the marker
-          //('Government', 'Government'), ('NGO', 'NGO'), ('Tribal', 'Tribal'),
-              //('ForProfit', 'ForProfit'), ('Academic', 'Academic'), ('Null', 'Null')
-          function getMarker(entity){
-            var icon = "";
-            var path = "http://127.0.0.1:8000/";
-            if(entity.Type === "Government"){
-              icon = '/static/files/img/Official_3.png';
-             }
-            else if(entity.Type === "NGO"){
-              icon = '/static/files/img/Official_2.png';
-            }
-            else if(entity.Type === "Tribal"){
-              icon = '/static/files/img/Official_1.png';
-            }
-            else if(entity.Type === "ForProfit"){
-              icon = '/static/files/img/Official_3.png';
-            }
-            else if(entity.Type === "academic"){
-              icon = '/static/files/img/School_1.png';
-            }
-            else{
-              icon = '/static/files/img/Info_4.png';
-            }
-            return icon;
-          }
-            //draw lines between points
-            /*
-            var flightPath = new google.maps.Polyline({
-              path: flightPlanCoordinates,
-              geodesic: true,
-              strokeColor: '#FF0000',
-              strokeOpacity: 1.0,
-              strokeWeight: 2
+              iw.setContent(markerData.text);
+              iw.open(map, marker);
             });
+            oms.addMarker(marker);  // adds the marker to the spiderfier _and_ the map
+          })();
+        }
+        window.map = map;  // for debugging/exploratory use in console
+        window.oms = oms;  // ditto
+      }
 
-            flightPath.setMap(map);
-            */
+      // grab data in json format
+      var queryset = "{{ queryset|escapejs }}";
+      //var data = JSON.parse(queryset);
+      // parse the data
+      var data = JSON.parse(queryset);
+
+      //create an array of essentially model objects
+      var dataFields = [];
+      for (i = 0; i < data.length; i++){
+        dataFields.push(data[i].fields);
+      }
+      //parse the data into the entity dictionary
+      var entities = {};
+
+      for(i = 0; i < dataFields.length; i++){
+        entities[i] = {
+                      Name: dataFields[i].Label,
+                      Lat: dataFields[i].Lat,
+                      Long: dataFields[i].Lng,
+                      Location: dataFields[i].Location,
+                      Scope: dataFields[i].ScopeCleaned,
+                      Type: dataFields[i].InstitutionalType,
+                      Issue: dataFields[i].IssueFocus,
+                      Source: dataFields[i].source,
+                      Desc: dataFields[i].description
+                    };
+      }
+
+      var data = [];
+      var entSize = Object.keys(entities).length;
+      for (var i =0; i < entSize; i++) {
+        var lat = Number(entities[i].Lat);
+        if (lat == null) {
+          lat = 0;
+        }
+        var lng = Number(entities[i].Long);
+        if (lng == null) {
+          long = 0;
+        }
+        var contentInfo = getContent(entities[i]);
+        var marker = getMarker(entities[i]);
+        data.push ({
+            lng: lng,
+            lat: lat,
+            icon: marker,
+            text: contentInfo
+        });
+      }
+
+      // get the content of the entity object
+      function getContent(entity){
+        var contentString = "";
+        var label = entity.Name;
+        var location = entity.Location;
+        var source = entity.Source;
+        var desc = entity.Desc;
+        if(desc == ""){
+          desc = "Information needed."
+        }
+
+        //referenced from https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
+        contentString = '<div id="content">'+
+          '<div id="siteNotice">'+
+          '</div>'+
+          '<h1 id="firstHeading" class="firstHeading">' + label + '</h1>'+
+          '<div id="bodyContent">'+
+          '<p><b>' + label + '</b>, located at ' + location + ', ' + desc + '</p>'+
+          '<p>Attribution: ' + label + ', <a href=' + source + '</a> '+ source +
+          '</p>'+
+          '</div>'+
+          '</div>';
+
+        return contentString;
+      }
 
 
-          </script>
 
-    </div>
+      //get the appropriate icon for the marker
+      //('Government', 'Government'), ('NGO', 'NGO'), ('Tribal', 'Tribal'),
+      //('ForProfit', 'ForProfit'), ('Academic', 'Academic'), ('Null', 'Null')
+      function getMarker(entity){
+        var icon = "";
+        var path = "http://127.0.0.1:8000/";
+        if(entity.Type === "Government"){
+          icon = '/static/files/img/Official_3.png';
+         }
+        else if(entity.Type === "NGO"){
+          icon = '/static/files/img/Official_2.png';
+        }
+        else if(entity.Type === "Tribal"){
+          icon = '/static/files/img/Official_1.png';
+        }
+        else if(entity.Type === "ForProfit"){
+          icon = '/static/files/img/Official_3.png';
+        }
+        else if(entity.Type === "academic"){
+          icon = '/static/files/img/School_1.png';
+        }
+        else{
+          icon = '/static/files/img/Info_4.png';
+        }
+        return icon;
+      }
 
-  </div>
-</div>
+      window.mapData = data;
+  </script>
 
-<div id="footer">
+
+
+
+
+  <div id="footer">
   <footer class="bg-faded text-center py-5">
     <div class="container">
       <p class="m-0">Copyright &copy; Climate Adaptation and Mitigation Project</p>
     </div>
   </footer>
-</div>
-
 </body>
-<!--endbody-->
 
 </html>
