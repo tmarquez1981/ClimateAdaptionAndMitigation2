@@ -116,16 +116,6 @@
   <!--navbar end-->
 <h2 align="center">Visualization by Geographical Location</h2>
 
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEfR1XdwfyBnBm-KcKvwKLudyU0P1I830&callback=initMap&libraries=places">
-    </script>
-
-    <script async defer src="/static/js/oms.min.js?spiderfier_callback=initMap"></script>
-
-
-
-
-
 <!--<p id="queryset" value={{ queryset|safe|escape|striptags }}</p>-->
   <div id="map_element2"></div>
 
@@ -265,6 +255,12 @@ var mapLibsReady = 0;
 
       window.mapData = data;
   </script>
+
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEfR1XdwfyBnBm-KcKvwKLudyU0P1I830&callback=initMap&libraries=places">
+      </script>
+
+      <script async defer src="/static/js/oms.min.js?spiderfier_callback=initMap"></script>
 
 
 
